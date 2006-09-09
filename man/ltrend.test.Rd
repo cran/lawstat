@@ -39,7 +39,7 @@ Gastwirth, J.~L., Gel, Y.~R., and Miao, W. (2006). \emph{The Impact of Levene's 
 of Variances on Statistical Theory and Practice}. Working paper, 
 Department of Statistics, George Washington University.\cr
 
-Levene, H. (1960). \emph{Robust Testes for Equality of Variances}, in Contributions 
+Levene, H. (1960). \emph{Robust Tests for Equality of Variances}, in Contributions 
 to Probability and Statistics, ed. I. Olkin, Palo Alto, CA: Stanford Univ. Press.\cr
 
 Lim,T.-S., Loh, W.-Y. (1996) \emph{A comparison of tests of equality of variances}

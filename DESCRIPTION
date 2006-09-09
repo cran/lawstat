@@ -1,12 +1,12 @@
 Package: lawstat
 Type: Package
 Title: A new R package for biostatistics, public policy and law
-Version: 1.0
-Date: 2006-08-30
+Version: 1.01
+Date: 2006-09-09
 Author: Wallace Hui <wlwhui@uwaterloo.ca>, Yulia R. Gel <ygl@math.uwaterloo.ca>, 
         Joseph L. Gastwirth <jlgast@gwu.edu>, Weiwen Miao <miao@macalester.edu>
 Maintainer: Wallace Hui <wlwhui@uwaterloo.ca>
-Depends: R (>= 2.3.1), grDevices
+Depends: R (>= 2.3.1), grDevices, stats
 Description: A new R software package on statistical tests widely
         utilized in biostatistics, public policy and law. 
         Along with the well known tests for equality of means and variances, 
@@ -17,4 +17,4 @@ Description: A new R software package on statistical tests widely
         illustrated by simulations and real-life examples from legal statistics, 
         economics and biostatistics.
 License: GPL (version 2 or later)
-Packaged: Thu Aug 31 15:13:12 2006; hornik
+Packaged: Sun Sep 10 22:02:07 2006; hornik
