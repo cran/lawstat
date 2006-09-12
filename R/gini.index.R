@@ -14,7 +14,7 @@ for (j in (i+1):n)
            a<-a+abs(x[j]-x[i])
           }
 
-delta<-a/(factorial(n)/(factorial(2)*factorial(n-2)))
+delta<-2*a/n/(n-1)
 GI<-delta/(2*mean(x))
 
 METHOD = "Measures of Relative Variability - Gini Index"

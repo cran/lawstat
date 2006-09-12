@@ -39,7 +39,7 @@ American Statistician 59, 1-6.
 \examples{
 ## Pain score on the third day after surgery for 14 patients under
 ## the treatment \emph{Y} and 11 patients under the treatment \emph{N}
-## (see Reiczigel, Zakarias and Rozsa (2005))
+## (see Brunner and Munzel (2000))
 
 Y<-c(1,2,1,1,1,1,1,1,1,1,2,4,1,1)
 N<-c(3,3,4,3,1,2,3,1,1,5,4)
