@@ -5,7 +5,7 @@
  The function performs a test for a linear trend in variances. The test statistic
 is based on the classical Levene procedure (using the group means), 
 the modified Brown-Forsythe Levene-type procedure (using the group medians)
-or the modified Levene-type procedure (using the group trimmed means). 
+or the modified Levene-type procedure (using the group trimmed means). NAs from the data are omitted.
 }
 \usage{
 ltrend.test(y, group, option = c("mean", "median", 

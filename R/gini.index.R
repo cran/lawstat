@@ -2,6 +2,10 @@
 function(x){
 
 DNAME = deparse(substitute(x))
+
+##Strip NAs
+x<-na.omit(x)
+
 x=sort(x)
 n=length(x)
 

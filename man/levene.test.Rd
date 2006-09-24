@@ -5,7 +5,7 @@
 The function performs the following tests for equality of the k population variances:
 classical Levene's test, the robust Brown-Forsythe Levene-type 
 test using the group medians and the robust Levene-type test using 
-the group trimmed mean. 
+the group trimmed mean. NAs from the data are omitted.
 }
 \usage{
 levene.test(y, group, option = c("mean", "median",

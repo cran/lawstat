@@ -4,7 +4,7 @@
 \description{
 This function performs the runs test for randomness. Users can
 choose whether to plot the correlation graph or not, and whether to
-test against two-sided, negative or positive correlation.
+test against two-sided, negative or positive correlation. NAs from the data are omitted.
 }
 \usage{
 runs.test(y, plot.it = FALSE, alternative = c("two.sided", 

@@ -5,7 +5,7 @@
 This function performs the Bartels test for randomness which is
 based on the ranked version of von Neumann's ratio (RVN). Users can
 choose whether to test against two-sided, negative or positive
-correlation.
+correlation. NAs from the data are omitted.
 }
 \usage{
 symmetry.test(x, option = c("mgg.test", "cabilio.masaro.test", 

@@ -2,14 +2,16 @@
 function(x, crit.values=c("t.approximation", "empirical"), N=0) 
 {
 crit.values=match.arg(crit.values)
+DNAME = deparse(substitute(x))
+
+##Strip NAs
+x<-na.omit(x)
 
 
 if ((crit.values=="empirical")&(N==0)) 
 {stop("number of Monte Carlo simulations N should be provided for the empirical critical values")}
 
-### SJ Test - New Directional Test
-
-DNAME = deparse(substitute(x))
+### SJ Test 
 
 n<-length(x)
 J<-sqrt(pi/2)*mean(abs(x-median(x))) 

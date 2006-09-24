@@ -2,6 +2,11 @@
 function(y, alternative=c("two.sided", "positive.correlated", "negative.correlated"))
 {
 alternative<-match.arg(alternative)
+DNAME = deparse(substitute(y))
+
+##Strip NAs
+y<-na.omit(y)
+
 
 ### Calculate the rank of the input data ###
 R<-rank(y)
@@ -36,7 +41,7 @@ METHOD = "Bartels Test - Two sided"}
 
 ### Display Output ###
 
-DNAME = deparse(substitute(y))
+
 PARAMETER=RVN
 names(PARAMETER)="RVN Ratio"
 STATISTIC=statistic

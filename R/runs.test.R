@@ -3,6 +3,11 @@ function(y, plot.it=FALSE, alternative=c("two.sided", "positive.correlated", "ne
 {
 
 alternative<-match.arg(alternative)
+DNAME = deparse(substitute(y))
+
+##Strip NAs
+y<-na.omit(y)
+
 
 ### Calculate the runs of the data ###
 med<-median(y, na.rm=TRUE)
@@ -63,8 +68,6 @@ METHOD = "Runs Test - Two sided"}
 
 ### Display Output ###
 
-
-DNAME = deparse(substitute(y))
 STATISTIC=statistic
 names(STATISTIC)="Standardized Runs Statistic"
 

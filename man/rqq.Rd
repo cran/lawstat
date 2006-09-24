@@ -6,8 +6,7 @@ This function produces the robust quantile-quantile (RQQ) and
 classical quantile-quantile (QQ) plots for graphical assessment of
 normality and optionally adds a line, or a QQ line, to the produced
 plot. The QQ line may be chosen to be a 45 degree line or to pass
-through the first and third quartiles of the data.
-
+through the first and third quartiles of the data. NAs from the data are omitted. 
 Graphical parameters may be given as arguments to 'rqq'.
 }
 \usage{

@@ -3,6 +3,10 @@ function(x){
 
 DNAME = deparse(substitute(x))
 
+##Strip NAs
+x<-na.omit(x)
+
+
 ### Calculate the Coefficient of Dispersion
 
 x=sort(x)

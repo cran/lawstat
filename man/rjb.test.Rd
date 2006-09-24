@@ -2,7 +2,7 @@
 \alias{rjb.test}
 \title{Test of Normailty - Robust Jarque Bera Test}
 \description{
-This function performs the robust and classical Jarque-Bera tests of normality.
+This function performs the robust and classical Jarque-Bera tests of normality. NAs from the data are omitted.
 }
 \usage{
 rjb.test(x, option = c("RJB", "JB"))

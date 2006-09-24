@@ -1,7 +1,12 @@
 "rqq" <-
 function(y, plot.it=TRUE, scale=c("MAD", "J", "classical"), 
-             location=c("median", "mean"), line.it=FALSE, line.type=c("45 degrees", "QQ"), col.line=1, lwd=1, ...)
+             location=c("median", "mean"), line.it=FALSE, 
+        line.type=c("45 degrees", "QQ"), col.line=1, lwd=1, ...)
 {
+
+##Strip NAs
+y<-na.omit(y)
+
 
 x=sort(y)
 
@@ -45,10 +50,7 @@ if(line.it==TRUE)
   abline(0, 1, col=col.line, lwd=lwd) 
  }
 }
-else q<-qqnorm(y, main = paste(qqstd, location),...)
-invisible(list(x = q$x, y = q$y))
+else 
+{q<-qqnorm(y, main = paste(qqstd, location),...)}
 
 }
-
-rqq(rnorm(100), scale="J", location="mean", line.it=TRUE, line.type="QQ", xlim=c(0,1))
-

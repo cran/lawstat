@@ -3,13 +3,15 @@ function(x, option=c("RJB", "JB"))
 {
 
 option<-match.arg(option) 
+DNAME <- deparse(substitute(x))
+
+##Strip NAs
+x<-na.omit(x)
+
 
    if (NCOL(x) > 1)
         stop("x is not a vector or univariate time series")
-    if (any(is.na(x)))
-        stop("NAs in x")
-    DNAME <- deparse(substitute(x))
-
+    
 
     ### Calculate the first 4 central moments ###
     n <- length(x)

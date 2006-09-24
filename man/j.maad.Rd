@@ -2,15 +2,16 @@
 \alias{j.maad}
 \title{MAAD estimated Robust Standard Deviation}
 \description{
-This function computes the robust standard deviation of the sample data.
+This function computes the average absolute deviation from the 
+sample median, which is a consistent robust estimate of the 
+population standard deviation for normality distribution data.
+NAs from the data are omitted.
 }
 \usage{
-j.maad(x, na.rm = FALSE)
+j.maad(x)
 }
 \arguments{
   \item{x}{a numeric vector of data values.}
-  \item{na.rm}{if 'TRUE' then 'NA' values are stripped from 'x' before
-          computation takes place.}
 }
 \value{
 A list with the following numeric components.

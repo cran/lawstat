@@ -5,7 +5,7 @@
 This function measures relative inequality (or relative variation)
 of the data. Coefficient of Dispersion (CD) is the ratio of the
 Average Absolute Deviation from the Median (MAAD) to the Median of
-the data.
+the data. NAs from the data are omitted.
 }
 \usage{cd(x)}
 \arguments{

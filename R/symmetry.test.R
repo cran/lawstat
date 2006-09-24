@@ -3,15 +3,17 @@ function(x, option=c("mgg.test", "cabilio.masaro.test", "mira.test"))
 {
 
 option<-match.arg(option)
-
 DNAME = deparse(substitute(x))
+
+##Strip NAs
+x<-na.omit(x)
+
 
 x<-sort(x)
 x<-(x-mean(x))/sd(x)
 N=length(x)
 m<-median(x)
 g<-((mean(x)-2/N*(sum(x[which(x<=m)]))))
-#g<-(-mean(abs(x-m),na.rm=TRUE)/2)
 
 
 ## tau2 for Normal Distribution ##

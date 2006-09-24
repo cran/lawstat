@@ -3,7 +3,7 @@
 \title{Measures of Relative Variability - Gini Index}
 \description{
 This function measures relative inequality (or relative variation)
-of the data using the Gini Index.
+of the data using the Gini Index. NAs from the data are omitted.
 }
 \usage{
 gini.index(x)
