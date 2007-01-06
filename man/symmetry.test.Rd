@@ -2,10 +2,11 @@
 \alias{symmetry.test}
 \title{Test of Symmetry}
 \description{
-This function performs the Bartels test for randomness which is
-based on the ranked version of von Neumann's ratio (RVN). Users can
-choose whether to test against two-sided, negative or positive
-correlation. NAs from the data are omitted.
+This function performs the test for symmetry about an unknown
+median. Users can choose to perform the Mira test (see Mira(1999)),
+the Cabilio-Masaro test (see Cabilio and Masaro(1996)), or the MGG
+test (see Miao, Gel and Gastwirth (2006)). The MGG option is set by
+default. NAs from the data are omitted.
 }
 \usage{
 symmetry.test(x, option = c("mgg.test", "cabilio.masaro.test", 

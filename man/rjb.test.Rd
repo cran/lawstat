@@ -2,14 +2,19 @@
 \alias{rjb.test}
 \title{Test of Normailty - Robust Jarque Bera Test}
 \description{
-This function performs the robust and classical Jarque-Bera tests of normality. NAs from the data are omitted.
+This function performs the robust and classical Jarque-Bera tests of normality.
 }
 \usage{
-rjb.test(x, option = c("RJB", "JB"))
+rjb.test(x, option = c("RJB", "JB"), 
+         crit.values = c("chisq.approximation", "empirical"), N = 0)
 }
 \arguments{
   \item{x}{a numeric vector of data values.}
   \item{option}{The choice of the test must be "RJB" (default) or "JB".}
+  \item{crit.values}{a character string specifying how the critical 
+                 values should be obtained, i.e. approximated by the
+                 chisq-distribution (default) or empirically.}
+  \item{N}{number of Monte Carlo simulations for the empirical critical values}
 }
 \details{
 The test is based on a joint statistic using skewness and kurtosis

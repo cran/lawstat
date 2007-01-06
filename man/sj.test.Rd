@@ -5,7 +5,7 @@
 This function performs the robust directed test of normality which
 is based on the ratio of the classical standard deviation \emph{s} to the
 robust standard deviation \emph{J} (Average Absolute Deviation from the
-Median (MAAD)) of the sample data. NAs from the data are omitted.
+Median (MAAD)) of the sample data.
 }
 \usage{
 sj.test(x, crit.values = c("t.approximation", "empirical"), N = 0)
