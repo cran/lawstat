@@ -8,13 +8,16 @@ the modified Brown-Forsythe Levene-type procedure (using the group medians)
 or the modified Levene-type procedure (using the group trimmed means). NAs from the data are omitted.
 }
 \usage{
-ltrend.test(y, group, option = c("mean", "median", 
-            "trim.mean"), trim.alpha = 1)
+ltrend.test(y, group, score=NULL, option = c("mean", "median", 
+           "trim.mean"), trim.alpha = 1)
 }
 
 \arguments{
   \item{y}{our data}
   \item{group}{factor of the data}
+  \item{score}{weights to be used in testing increasing/decreasing trend in group variances,
+          "score" coincides by default with "group"; it can be chosen as a linear, quadratic
+          or any other monotone function.}
   \item{option}{the option must be "mean" corresponding to classical Levene's procedure 
                 (default), "median" corresponding to the robust 
                 Brown-Forsythe Levene-type procedure or "trim.mean" corresponding to the 
@@ -49,16 +52,35 @@ Computational Statistical \& Data Analysis 22, 287-301.
 \author{Wallace Hui, Yulia R. Gel, Joseph L. Gastwirth, Weiwen Miao}
 \seealso{\code{\link{levene.test}}}
 \examples{
+
 data(pot)
+
+## ltrend test with the default option of the score being equal to the group, 
+## i.e. 1,2,.., number of groups
+
 ltrend.test(pot[,"obs"], pot[,"type"], option="trim.mean", trim.alpha=0.25)
 
-
-##      ltrend test based on the modified Levene-type procedure using the
-##      group trimmed means
+##    ltrend test based on the modified Levene-type procedure using
+##    the group trimmed means
 ##
 ## data:  pot[,"obs"] 
 ## Test Statistic = -1.683, p-value = 0.0004288
 
+
+
+## ltrend test with the scores 1, 3, 5 for each group
+
+score<-c(rep(1, length(pot$obs[which(pot$type=="ApDg")])), rep(3, 
+length(pot$obs[which(pot$type=="ApDl")])), rep(5, 
+length(pot$obs[which(pot$type=="ApP")])))
+
+ltrend.test(pot[,"obs"], pot[,"type"], score, option="trim.mean", trim.alpha=0.25)
+
+##     ltrend test based on the modified Levene-type procedure using 
+##     the group trimmed means
+##
+## data:  pot[, "obs"] 
+## Test Statistic = -0.8415, p-value = 0.0004288
 
 }
 \keyword{htest}

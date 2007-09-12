@@ -10,13 +10,14 @@ through the first and third quartiles of the data. NAs from the data are omitted
 Graphical parameters may be given as arguments to 'rqq'.
 }
 \usage{
-rqq(y, plot.it = TRUE, scale = c("MAD", "J", "classical"), 
+rqq(y, plot.it = TRUE, square.it=TRUE, scale = c("MAD", "J", "classical"), 
     location = c("median", "mean"), line.it = FALSE, 
     line.type = c("45 degrees", "QQ"), col.line = 1, lwd = 1, ...)
 }
 \arguments{
   \item{y}{the input data.}
   \item{plot.it}{logical. Should the result be plotted?}
+  \item{square.it}{Logical. Should the plot scales be square?. True is the default.}
   \item{scale}{the choice of a scale estimator, i.e. the classical or robust estimate
                    of the standard deviation.}
   \item{location}{the choice of a location estimator, i.e. the mean or median.}

@@ -27,7 +27,7 @@ Salvemini, T}. Rome: Libreria Eredi Virgilio Veschi (1955).
 English translation in Metron, 2005,63,(1) 3-38
 }
 \author{Wallace Hui, Yulia R. Gel, Joseph L. Gastwirth, Weiwen Miao}
-\seealso{\code{\link{cd}}, \code{\link{j.maad}}}
+\seealso{\code{\link{cd}}, \code{\link{j.maad}}, \code{\link{lorenz.curve}}}
 \examples{
 ## The Baker v. Carr Case: one-person-one-vote decision. 
 ## Measure of Relative Inequality of Population data in 33 districts 
