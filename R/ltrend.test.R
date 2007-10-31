@@ -1,17 +1,18 @@
 "ltrend.test"<-
 function (y, group, score=NULL, option = c("mean", "median", "trim.mean"), 
-    trim.alpha = 1) 
+    trim.alpha = 0.25) 
+
 {
-
-    if(is.null(score)){score=group}
-
+    if (is.null(score)) {
+        score = group
+    }
     option <- match.arg(option)
     DNAME = deparse(substitute(y))
     y <- na.omit(y)
-    if ((option == "trim.mean") & (trim.alpha == 1)) {
+    if ((option == "trim.mean") & (trim.alpha >= 0.5)) {
         stop("trim.alpha value of 0 to 0.5 should be provided for the trim.mean option")
     }
-    gr<-score
+    gr <- score
     group <- as.factor(group)
     if (option == "mean") {
         means <- tapply(y, group, mean)
@@ -57,5 +58,3 @@ function (y, group, score=NULL, option = c("mean", "median", "trim.mean"),
     structure(list(statistic = STATISTIC, p.value = p.value, 
         method = METHOD, data.name = DNAME), class = "htest")
 }
-
-

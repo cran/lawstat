@@ -1,5 +1,6 @@
 \name{gini.index}
 \alias{gini.index}
+\encoding{latin1}
 \title{Measures of Relative Variability - Gini Index}
 \description{
 This function measures relative inequality (or relative variation)

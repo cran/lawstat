@@ -12,7 +12,8 @@ Graphical parameters may be given as arguments to 'rqq'.
 \usage{
 rqq(y, plot.it = TRUE, square.it=TRUE, scale = c("MAD", "J", "classical"), 
     location = c("median", "mean"), line.it = FALSE, 
-    line.type = c("45 degrees", "QQ"), col.line = 1, lwd = 1, ...)
+    line.type = c("45 degrees", "QQ"), col.line = 1, lwd = 1, 
+    outliers=FALSE, alpha=0.05, ...)
 }
 \arguments{
   \item{y}{the input data.}
@@ -27,8 +28,13 @@ rqq(y, plot.it = TRUE, square.it=TRUE, scale = c("MAD", "J", "classical"),
                       first and third quartiles of the data.}
   \item{col.line}{the color of the line (if plotted).}
   \item{lwd}{the line width (if plotted).}
+  \item{outliers}{logical. Should the outliers be listed in the output?}
+  \item{alpha}{significance level of outliers. If outliers=TRUE, then all observations
+              that are less than the 100*alpha-th standard normal percentile or greater than
+              the 100*(1-alpha)-th standard normal percentile will be listed in the output.}
   \item{\dots}{Other parameters from \code{plot}}
 }
+
 \details{
 An RQQ plot is a modified QQ plot where data are robustly
 standardized by the median and robust measure of spread (rather than
@@ -67,7 +73,7 @@ J. 46, 3-29.\cr
 Weisberg, S. (2005) \emph{Applied linear regression}, 3rd Ed, John
 Wiley \& Sons, Hoboken, N.J.\cr
 }
-\author{Wallace Hui, Yulia R. Gel, Joseph L. Gastwirth, Weiwen Miao}
+\author{W. Wallace Hui, Yulia R. Gel, Joseph L. Gastwirth, Weiwen Miao}
 \seealso{\code{\link{rjb.test}}, \code{\link{sj.test}}, \code{qqnorm}, \code{qqplot}, \code{qqline}}
 \examples{
 ## Simulate 100 observations: using rnorm() for 

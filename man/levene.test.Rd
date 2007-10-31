@@ -9,7 +9,7 @@ the group trimmed mean. NAs from the data are omitted.
 }
 \usage{
 levene.test(y, group, option = c("mean", "median",
-            "trim.mean"), trim.alpha = 1)
+            "trim.mean"), trim.alpha = 0.25)
 }
 \arguments{
   \item{y}{our data}
@@ -38,6 +38,9 @@ A list with the following numeric components.
   \item{method}{type of test was performed.}
   \item{data.name}{a character string giving the name of the data.}
 }
+
+\note{modified from a response posted by Brian Ripley to the R-help e-mail list.}
+
 \references{
 
 Brown, M.~B. and Forsythe, A.~B. (1974). \emph{Robust tests for equality of 
@@ -56,9 +59,7 @@ Computational Statistical \& Data Analysis 22, 287-301
 }
 
 
-
-
-\author{Wallace Hui, Yulia R. Gel, Joseph L. Gastwirth, Weiwen Miao}
+\author{W. Wallace Hui, Yulia R. Gel, Joseph L. Gastwirth, Weiwen Miao}
 \seealso{\code{\link{ltrend.test}}}
 \examples{
 

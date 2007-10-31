@@ -34,6 +34,9 @@ A list with class htest containing the following components:
   \item{method}{type of test was performed.}
   \item{data.name}{a character string giving the name of the data.}
 }
+
+\note{Modified from 'jarque.bera.test' (in 'tseries' package).}
+
 \references{
 Gastwirth, J. L.(1982) \emph{Statistical Properties of A Measure
 of Tax Assessment Uniformity}, Journal of Statistical Planning
@@ -43,7 +46,7 @@ Jarque, C. and Bera, A. (1980) \emph{Efficient tests for
 normality, homoscedasticity and serial independence of regression
 residuals.}, 6 Econometric Letters 255-259.
 }
-\author{Wallace Hui, Yulia R. Gel, Joseph L. Gastwirth, Weiwen Miao}
+\author{W. Wallace Hui, Yulia R. Gel, Joseph L. Gastwirth, Weiwen Miao}
 \seealso{\code{\link{sj.test}}, \code{\link{rqq}}, \code{jarque.bera.test} (in \emph{tseries} package).}
 \examples{
 ## Normally distributed data

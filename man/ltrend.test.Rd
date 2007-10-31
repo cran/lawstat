@@ -9,7 +9,7 @@ or the modified Levene-type procedure (using the group trimmed means). NAs from 
 }
 \usage{
 ltrend.test(y, group, score=NULL, option = c("mean", "median", 
-           "trim.mean"), trim.alpha = 1)
+           "trim.mean"), trim.alpha = 0.25)
 }
 
 \arguments{
@@ -49,15 +49,11 @@ Lim,T.-S., Loh, W.-Y. (1996) \emph{A comparison of tests of equality of variance
 Computational Statistical \& Data Analysis 22, 287-301.
 
 }
-\author{Wallace Hui, Yulia R. Gel, Joseph L. Gastwirth, Weiwen Miao}
+\author{W. Wallace Hui, Yulia R. Gel, Joseph L. Gastwirth, Weiwen Miao}
 \seealso{\code{\link{levene.test}}}
 \examples{
 
 data(pot)
-
-## ltrend test with the default option of the score being equal to the group, 
-## i.e. 1,2,.., number of groups
-
 ltrend.test(pot[,"obs"], pot[,"type"], option="trim.mean", trim.alpha=0.25)
 
 ##    ltrend test based on the modified Levene-type procedure using
@@ -66,21 +62,6 @@ ltrend.test(pot[,"obs"], pot[,"type"], option="trim.mean", trim.alpha=0.25)
 ## data:  pot[,"obs"] 
 ## Test Statistic = -1.683, p-value = 0.0004288
 
-
-
-## ltrend test with the scores 1, 3, 5 for each group
-
-score<-c(rep(1, length(pot$obs[which(pot$type=="ApDg")])), rep(3, 
-length(pot$obs[which(pot$type=="ApDl")])), rep(5, 
-length(pot$obs[which(pot$type=="ApP")])))
-
-ltrend.test(pot[,"obs"], pot[,"type"], score, option="trim.mean", trim.alpha=0.25)
-
-##     ltrend test based on the modified Levene-type procedure using 
-##     the group trimmed means
-##
-## data:  pot[, "obs"] 
-## Test Statistic = -0.8415, p-value = 0.0004288
 
 }
 \keyword{htest}
