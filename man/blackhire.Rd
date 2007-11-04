@@ -1,9 +1,9 @@
 \name{blackhire}
 \alias{blackhire}
 \docType{data}
-\title{Number of persons being hired by eight professions and two races.}
+\title{Hiring data for eight professions and two races}
 \description{
-The dataset for Cochran-Mantel-Haenszel Chi-square Test (Gastwirth, 1984).}
+Number of black and white candidates (hired or rejected) for eight professions.}
 \usage{blackhire}
 \format{
   An array with 2 rows by 2 columns by 8 levels.

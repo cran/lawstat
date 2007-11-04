@@ -1,17 +1,5 @@
 "cmh.test" = function(x){
 
- ################################################
- ## This is a function to compute the CMH test ##
- ## for a 2 by 2 by k table                    ##
- ## x is a three dimensional array, 2x2xk      ##
- ################################################
-
-
- ### Define array space for all each level of k, and sum of each category ###
- ### For example, in the case of Equal Employment Opportunity, they are:
- ### Minority promoted, Minority not promoted
- ### Majority promoted, Majority not promoted
-
  pooled = apply(x,1:2,sum)
  OR = pooled[1,1] * pooled[2,2] / pooled[1,2] / pooled[2,1]
  k = dim(x)[3]
@@ -25,14 +13,13 @@
  col1sums = n11k + n21k
  n=apply(x,3,sum)
 
- ### Calculate the mean and variance of minority promoted for all levels of k ###
- ### Goodness of fit test for discrepancy between observed values and the expected values ###
+ 
  u11=row1sums*col1sums/n
  var11=row1sums*row2sums*col1sums*(n-col1sums)/(n^2)/(n-1)
  num=(sum(n11k-u11))^2
  deno=sum(var11)
  cmh=num/deno
- p.value = 1 - pchisq(cmh,1)
+ cmh.p.value = 1 - pchisq(cmh,1)
 
  DNAME = deparse(substitute(x))
  METHOD="Cochran-Mantel-Haenszel Chi-square Test"
@@ -43,8 +30,10 @@
 
  orkname=paste("Odd Ratio of level",1:k)
 
- PARAMETER = c(MH.ESTIMATE,cmh, 1, p.value, OR, ORK)
- names(PARAMETER) = c("Mantel-Haenszel Estimate", "Chi-squared", "df", "p-value", "Pooled Odd Ratio", orkname) 
+ PARAMETER = c(cmh, 1, cmh.p.value, MH.ESTIMATE, OR, ORK)
+ names(PARAMETER) = c("CMH statistic", "df", "p-value", 
+"MH Estimate", "Pooled Odd Ratio", orkname)
+ 
  
 structure(list(parameter = PARAMETER, method = METHOD, data.name = DNAME), class = "htest")
     
