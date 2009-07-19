@@ -22,7 +22,7 @@ whether most of the federal money given to the state under the law
 goes to the state or to the local school districts.
 }
 \source{
-Gastwirth, J.L. (2006). \emph{A Sixty Million Dollar Statistical
+Gastwirth, J. L. (2006). \emph{A Sixty Million Dollar Statistical
 Issue Arising in the Interpretation and Calculation of a Measure of
 Relative Disparity Mandated by Law: Zuni Public School District 89
 v. U.S. Department of Education.} (working paper, Department of Statistics,

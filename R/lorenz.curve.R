@@ -1,4 +1,5 @@
-"lorenz.curve"<-function(data, weight=NULL, mul=FALSE, plot.it=TRUE, 
+`lorenz.curve` <-
+function(data, weight=NULL, mul=FALSE, plot.it=TRUE, 
    main=NULL, xlab=NULL, ylab=NULL, xlim=c(0,1), ylim=c(0,1), ... )
 {
 

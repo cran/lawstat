@@ -26,11 +26,11 @@ bartels.test(y, alternative = c("two.sided", "positive.correlated",
   \item{alternative}{a character string describing the alternative hypothesis.}
 }
 \references{
-Bartels, R (1982), \emph{Journal of the American Statistical Association},
-Volume 77, Number 377, 40-46.
+Bartels, R. (1982) \emph{The Rank Version of von Neumann's Ratio Test for Randomness}, 
+Journal of the American Statistical Association, 77, 40-46.
 }
 \author{
-  Wallace Hui, Yulia R. Gel, Joseph L. Gastwirth, Weiwen Miao
+  Kimihiro Noguchi, Wallace Hui, Yulia R. Gel, Joseph L. Gastwirth, Weiwen Miao
 }
 \seealso{\code{\link{runs.test}} }
 \examples{

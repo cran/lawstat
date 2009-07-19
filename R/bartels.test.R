@@ -1,4 +1,4 @@
-"bartels.test" <-
+`bartels.test` <-
 function(y, alternative=c("two.sided", "positive.correlated", "negative.correlated"))
 {
 alternative<-match.arg(alternative)

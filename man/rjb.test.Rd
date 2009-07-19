@@ -42,9 +42,12 @@ Gastwirth, J. L.(1982) \emph{Statistical Properties of A Measure
 of Tax Assessment Uniformity}, Journal of Statistical Planning
 and Inference 6, 1-12.\cr
 
+Gel, Y. R. and Gastwirth, J. L. (2008) \emph{A robust modification of 
+the Jarque-Bera test of normality}, Economics Letters 99, 30-32.\cr
+
 Jarque, C. and Bera, A. (1980) \emph{Efficient tests for
 normality, homoscedasticity and serial independence of regression
-residuals.}, 6 Econometric Letters 255-259.
+residuals}, Economics Letters 6, 255-259.
 }
 \author{W. Wallace Hui, Yulia R. Gel, Joseph L. Gastwirth, Weiwen Miao}
 \seealso{\code{\link{sj.test}}, \code{\link{rqq}}, \code{jarque.bera.test} (in \emph{tseries} package).}
@@ -73,4 +76,3 @@ rjb.test(zuni[,"Revenue"])
 
 }
 \keyword{htest}
-

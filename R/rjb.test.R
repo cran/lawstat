@@ -1,4 +1,4 @@
-"rjb.test" <-
+`rjb.test` <-
 function (x, option=c("RJB", "JB"), crit.values=c("chisq.approximation", "empirical"), N=0)
 {
 
@@ -145,3 +145,4 @@ else {METHOD <- "Robust Jarque Bera Test"}
         p.value = p.value, method = METHOD, data.name = DNAME),
         class = "htest")
 }
+

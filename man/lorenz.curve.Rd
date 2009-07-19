@@ -73,4 +73,3 @@ lorenz.curve(data1963[,"pop1963"], data1963[,"rep1963"], mul=TRUE)
 
 }
 \keyword{dplot}
-

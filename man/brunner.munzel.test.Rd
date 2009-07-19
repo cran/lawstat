@@ -64,4 +64,3 @@ brunner.munzel.test(Y, N)
 }
 \keyword{htest}
 \keyword{nonparametric}
-

@@ -17,7 +17,7 @@ A list with the following numeric components.
   \item{data.name}{a character string giving the name of the data.}
 }
 \references{
-Bonett, D. G., Seier, E. (2005)\emph{Confidence Interval for a
+Bonett, D. G., Seier, E. (2005) \emph{Confidence Interval for a
 Coefficient of Dispersion in Nonnormal Distributions}, Biometrical
 Journal, 48(1), 144 - 148.\cr
 

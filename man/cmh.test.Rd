@@ -21,7 +21,7 @@ Cochran-Mantel-Haenszel (CMH) test statistic which is chi-squared distributed wi
 the corresponding p-value for the CMH statistic, the Mantel-Haenszel odds ratio estimator, the direct 
 pooled odd ratio estimator, and the odd ratios between the rows and columns at each level. The null 
 hypothesis is that two variables in each stratum are independent, conditionally on the levels of a 
-third variable. Hence, under the null hypothesis, estimators of odds ratio, i.e. the Mantel-Haensel and 
+third variable. Hence, under the null hypothesis, estimators of odds ratio, i.e. the Mantel-Haensel and 
 direct pooled estimators, are to be 1.
 }
 
@@ -49,7 +49,7 @@ Gastwirth, J. L.(1984) \emph{Statistical Methods for Analyzing Claims of Employm
 Industrial and Labor Relations Review, Vol. 38, No. 1. (October 1984), pp. 75-86.\cr
 
 Hall, D.B., Woolson, R.F., Clarke, W.R., Jones, M.F. (1999). \emph{Cochran-Mantel-Haenszel Techniques: 
-Applications Involving Epidemiologic Survey Data}. In: Handbook of Statistics Volume 17: 
+Applications Involving Epidemiologic Survey Data}. In: Handbook of Statistics Volume 17: 
 Bio-Environmental and Public Health Statistics. PK Sen and CR Rao, Eds. New York, NY: John Wiley and Sons.
 
 
@@ -81,4 +81,3 @@ cmh.test(blackhire)
 
 }
 \keyword{htest}
-

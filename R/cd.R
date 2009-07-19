@@ -1,4 +1,4 @@
-"cd" <-
+`cd` <-
 function(x){
 
 DNAME = deparse(substitute(x))
@@ -25,3 +25,4 @@ names(STATISTIC)="Coefficient of Dispersion"
 structure(list(statistic = STATISTIC, method = METHOD, data.name = DNAME), class = "htest")
 
 }
+

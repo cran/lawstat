@@ -1,4 +1,4 @@
-"symmetry.test" <-
+`symmetry.test` <-
 function(x, option=c("mgg.test", "cabilio.masaro.test", "mira.test"))
 {
 
@@ -47,3 +47,4 @@ names(STATISTIC)="Test Statistic"
 
 structure(list(statistic = STATISTIC, p.value=p.value, method = METHOD, data.name = DNAME), class = "htest")
 }
+

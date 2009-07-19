@@ -30,9 +30,9 @@ Gastwirth, J. L.(1982) \emph{Statistical Properties of A Measure
 of Tax Assessment Uniformity}, Journal of Statistical Planning
 and Inference 6, 1-12.\cr
 
-Gel, Y.~R., Miao, W. and Gastwirth, J.~L. (2006) \emph{Robust Directed Tests of
-Normality Against Heavy Tailed Alternatives}. To appear in Computational Statistic 
-and Data Analysis.\cr
+Gel, Y. R., Miao, W., and Gastwirth, J. L. (2007) \emph{Robust Directed Tests of
+Normality Against Heavy Tailed Alternatives}. 
+Computational Statistics and Data Analysis 51, 2734-2746.\cr
 
 }
 \author{Wallace Hui, Yulia R. Gel, Joseph L. Gastwirth, Weiwen Miao}

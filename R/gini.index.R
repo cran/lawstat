@@ -1,4 +1,4 @@
-"gini.index" <-
+`gini.index` <-
 function(x){
 
 DNAME = deparse(substitute(x))
@@ -34,3 +34,4 @@ names(PARAMETER) = "delta"
 structure(list(statistic = STATISTIC, parameter = PARAMETER, method = METHOD, data.name = DNAME), class = "htest")
 
 }
+

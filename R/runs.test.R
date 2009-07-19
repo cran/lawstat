@@ -1,4 +1,4 @@
-"runs.test" <-
+`runs.test` <-
 function(y, plot.it=FALSE, alternative=c("two.sided", "positive.correlated", "negative.correlated"))
 {
 

@@ -1,4 +1,4 @@
-"sj.test" <-
+`sj.test` <-
 function(x, crit.values=c("t.approximation", "empirical"), N=0) 
 {
 crit.values=match.arg(crit.values)

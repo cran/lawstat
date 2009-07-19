@@ -1,4 +1,4 @@
-"brunner.munzel.test" <-
+`brunner.munzel.test` <-
 function(x,y, alternative=c("two.sided", "greater", "less"), alpha=0.05)
 {
 
@@ -73,3 +73,4 @@ structure(list(estimate=ESTIMATE, conf.int=CONF.INT, statistic = STATISTIC, para
 p.value=p.value, method = METHOD, data.name = DNAME), class = "htest")
 
 }
+

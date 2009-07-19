@@ -22,7 +22,7 @@ gini.index(x)
 Gastwirth, J. L.(1988) \emph{Statistical Reasoning in Law and
 Public Policy Vol 1}, Boston; Toronto, Academic Press.\cr
 
-Gini, C. \emph{Variabilità e mutabilità} (1912) Reprinted in
+Gini, C. \emph{Variabilita e mutabilita} (1912) Reprinted in
 \emph{Memorie di metodologica statistica (Ed. Pizetti E,
 Salvemini, T}. Rome: Libreria Eredi Virgilio Veschi (1955).
 English translation in Metron, 2005,63,(1) 3-38
