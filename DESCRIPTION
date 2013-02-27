@@ -1,12 +1,14 @@
 Package: lawstat
-Version: 2.3
-Date: 2009-07-19
+Type: Package
 Title: An R package for biostatistics, public policy, and law
-Author: Kimihiro Noguchi <knoguchi@uwaterloo.ca>, W. L. Wallace Hui
-        <wlwhui@uwaterloo.ca>, Yulia R. Gel <ygl@math.uwaterloo.ca>,
-        Joseph L. Gastwirth <jlgast@gwu.edu>, Weiwen Miao
-        <miao@macalester.edu>
-Maintainer: Kimihiro Noguchi <knoguchi@uwaterloo.ca>
+Version: 2.4
+Date: 2013-02-27
+Author: (in alphabetical order) Joseph L. Gastwirth <jlgast@gwu.edu>;
+        Yulia R. Gel <ygl@math.uwaterloo.ca>; W. L. Wallace Hui
+        <wlwhui@uwaterloo.ca>; Vyacheslav Lyubchich
+        <vlyubchich@uwaterloo.ca>; Weiwen Miao <miao@macalester.edu>;
+        Kimihiro Noguchi <kinoguchi@ucdavis.edu>
+Maintainer: Vyacheslav Lyubchich <vlyubchich@uwaterloo.ca>
 Depends: R (>= 2.6.0), grDevices, stats, mvtnorm, VGAM
 Suggests: Kendall, Hmisc, fBasics
 License: GPL (>= 2)
@@ -19,6 +21,7 @@ Description: An R software package on statistical tests widely utilized
         plot; a robust trend tests for variances etc. All implemented
         tests and methods are illustrated by simulations and real-life
         examples from legal statistics, economics, and biostatistics.
-Packaged: 2012-10-29 08:59:05 UTC; ripley
+Packaged: 2013-03-04 04:08:56 UTC; vlyubchi
+NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2012-10-29 08:59:05
+Date/Publication: 2013-03-04 07:38:25

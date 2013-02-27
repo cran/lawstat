@@ -120,7 +120,7 @@ correction.method="zero.correction")
 ##   depending on the number of bootstrap sampling.
 
 ltrend.test(pot[,"obs"], pot[,"type"], location="median", tail="left", 
-correction.method="zero.correction",bootstrap=TRUE,num.bootstrap=10000)
+correction.method="zero.correction",bootstrap=TRUE,num.bootstrap=500)
 
 ##   bootstrap ltrend test based on the modified Brown-Forsythe Levene-type procedure 
 ##   using the group medians with modified structural zero removal method and correction factor

@@ -1,7 +1,7 @@
-fa6648814c5a797f43aad77300105856 *DESCRIPTION
+11e000eb3d1bcd86b3a329c05aa2140f *DESCRIPTION
 0fef49eff2072c3e1cda87f8dd7e8a1a *NAMESPACE
 2515ba4c8c5ca9b531b803a43485e425 *R/bartels.test.R
-07acc4dc8ffc49c581df875b72d3c2ed *R/brunner.munzel.test.R
+f4b3c44e409a18cd13720646a49cc292 *R/brunner.munzel.test.R
 18b8973b4073f91b1a556a11130bbacd *R/cd.R
 10e6c61f58932ed6587bea22ce96a1dc *R/cmh.test.R
 08757bd51a5c6c93865ed9407f2cf152 *R/gini.index.R
@@ -21,6 +21,7 @@ d3fcdadaa0ab2c6f27e0bb8aac465c1e *R/ltrend.test.R
 b28fdc7e57a7063b2326b0e650299f3b *R/runs.test.R
 70a97017706765e4261112c14ec79fc3 *R/sj.test.R
 bb75b4d4f8c9f3a8f9e038dbe58c7e80 *R/symmetry.test.R
+561ce9ddb3c1c8a8ddd13876a7e009f9 *R/wavk.test.R
 430a965f80113bae14cfba0763d40c19 *data/bias.rda
 da73f500bda27a33b58268c015b3de85 *data/blackhire.rda
 ac36359d8b7b090a5edc1a282658b7dd *data/data1963.rda
@@ -33,18 +34,18 @@ fd7b144afc46ed29c9f921b667675583 *man/bias.Rd
 19941078a56314aae286cfc0fdbdf73c *man/blackhire.Rd
 fa4de68f09ecbeeb3db9b042a855ad5d *man/brunner.munzel.test.Rd
 fdfac07fb52ec79a2f7e991d0c99190a *man/cd.Rd
-a9a597554e3ce939e96a8d06449965a9 *man/cmh.test.Rd
+e3684e7eddc11dee26f7dcbfbaf746ad *man/cmh.test.Rd
 79ccb3c5633adf2ec9bffabacbf94409 *man/data1963.Rd
 31962ef03b37d624370a9b7da710d4f0 *man/gini.index.Rd
 4feca7c748f47c3fcfcaf4261cc23205 *man/j.maad.Rd
 94d10fdce36f260e75f5fadbe6f1e923 *man/laplace.test.Rd
 7058b26b62668cf9b1d9de24789db7fe *man/levene.test.Rd
-baabe590e947d6539601eb3f10d18ce3 *man/lnested.test.Rd
+71c9e4347e17e0058abeef2b64f7dcea *man/lnested.test.Rd
 7bdb8244adfd1cc64935103b15df800b *man/lorenz.curve.Rd
-693c0c8479f8531316e78ba458805fcc *man/ltrend.test.Rd
+55078d230134157e2c5353c94ea53a76 *man/ltrend.test.Rd
 82f3d9634c297795f8224932d15c0f8b *man/michigan.Rd
 eb4ed2c47c660af62427f81225c123e1 *man/mma.test.Rd
-2a313286ccebff6d89de90fedb76e251 *man/neuhauser.hothorn.test.Rd
+ecd8e260ca22de9569414d5d99d4cd85 *man/neuhauser.hothorn.test.Rd
 8b69fe116388c5ae997e9868f63a5ddf *man/nig.parameter.Rd
 b9667c9157e69f23312c682398688358 *man/popdata.Rd
 4d73261174ca0f84059d6e5feac1e8cc *man/pot.Rd
@@ -55,4 +56,5 @@ e845a7c4fbaad62a28f38c87d0a7326a *man/rjb.test.Rd
 b40e66663ed143289fe68da518833b13 *man/runs.test.Rd
 5cfb7fdf203b6d763bcc5c266e2a1c63 *man/sj.test.Rd
 71201a4cd61a958f0ac9d43d51b518d2 *man/symmetry.test.Rd
+388251e0929b657d19c7c90ba53bd737 *man/wavk.test.Rd
 a57b362b30052b77ddd8fee198e2616c *man/zuni.Rd

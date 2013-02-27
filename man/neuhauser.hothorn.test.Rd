@@ -102,7 +102,7 @@ correction.method="zero.correction")
 ##   depending on the number of bootstrap sampling.
 
 neuhauser.hothorn.test(pot[,"obs"], pot[,"type"], location="median", tail="left", 
-correction.method="zero.correction", bootstrap=TRUE, num.bootstrap=10000)
+correction.method="zero.correction", bootstrap=TRUE, num.bootstrap=500)
 
 ##   bootstrap double contrast test based on the absolute deviations from the median with 
 ##   modified structural zero removal method and correction factor 

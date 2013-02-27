@@ -122,7 +122,7 @@ correction.method="zero.correction")$N
 ## Test Statistic (N) = 4.905, p-value = 0.0002618
 
 lnested.test(pot[,"obs"], pot[,"type"], location="median", tail="left", 
-correction.method="zero.correction",bootstrap=TRUE,num.bootstrap=10000)$N
+correction.method="zero.correction",bootstrap=TRUE,num.bootstrap=500)$N
 
 ##   bootstrap lnested test based on the modified Brown-Forsythe Levene-type procedure 
 ##   using the group medians with modified structural zero removal method and correction 
