@@ -3,7 +3,7 @@ function(y)
 {
 ### load the VGAM package ###
 
- library(VGAM)
+#library(VGAM)
 
 ### omit the NAs ###
 

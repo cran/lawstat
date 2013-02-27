@@ -13,7 +13,8 @@ and bootstrapped, are available. By default, NAs from the data are omitted.
 
 \usage{
 lnested.test(y, group, location = c("median", "mean", "trim.mean"), 
-tail = c("right","left","both"), trim.alpha = 0.25, bootstrap = FALSE, num.bootstrap = 1000, 
+tail = c("right","left","both"), trim.alpha = 0.25, 
+bootstrap = FALSE, num.bootstrap = 1000, 
 correction.method = c("none","correction.factor","zero.removal","zero.correction"), 
 correlation.method = c("pearson","kendall","spearman"))
 }

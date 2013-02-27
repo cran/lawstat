@@ -13,7 +13,7 @@ correction.method = c("none","correction.factor","zero.removal","zero.correction
 
 ### install the mvtnorm package ###
 
- library(mvtnorm)
+#library(mvtnorm)
 
 ### assign location, tail, and a correction method ###
 

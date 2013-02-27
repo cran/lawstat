@@ -119,7 +119,7 @@ levene.test(pot[,"obs"], pot[,"type"], location="median", correction.method="zer
 ##   depending on the number of bootstrap sampling.
 
 levene.test(pot[,"obs"], pot[,"type"], location="median", correction.method="zero.correction", 
-bootstrap=TRUE,num.bootstrap=1000)
+bootstrap=TRUE,num.bootstrap=500)
 
 ##        bootstrap modified robust Brown-Forsythe Levene-type test based on the absolute 
 ##        deviations from the median with structural zero removal method and correction factor
