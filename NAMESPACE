@@ -13,3 +13,5 @@ import(
 )
 
 importFrom(VGAM, plaplace)
+importFrom(Hmisc, spearman.test)
+importFrom(Kendall, Kendall)
