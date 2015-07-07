@@ -34,6 +34,9 @@ Brunner, E. and Munzel, U. (2000) \emph{The Nonparametric
 Behrens-Fisher Problem: Asymptotic Theory and a Small-Sample
 Approximation}, Biometrical Journal 42, 17-25.\cr
 
+Neubert, K., Brunner, E. (2007) \emph{A Studentized Permutation Test for the Non-parametric Behrens-Fisher Problem},
+Computational Statistics and Data Analysis 51, 5192-5204.\cr
+
 Reiczigel, J., Zakarias, I. and Rozsa, L. (2005) \emph{A
 Bootstrap Test of Stochastic Equality of Two Populations}, The
 American Statistician 59, 1-6.

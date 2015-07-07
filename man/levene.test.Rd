@@ -69,9 +69,9 @@ of variances.} Technometrics 31, 69-82.\cr
 Brown, M. B. and Forsythe, A.B. (1974). \emph{Robust tests for equality of 
 variances.} Journal of the American Statistical Association, 69, 364-367.\cr
 
-Gastwirth, J. L., Gel, Y. R., and Miao, W. (2008). \emph{The Impact of Levene's Test of Equality 
-of Variances on Statistical Theory and Practice}. Working paper, 
-Department of Statistics, George Washington University.\cr
+Gastwirth, J. L., Gel, Y. R., and Miao, W. (2009). \emph{The Impact
+of Levene's Test of Equality of Variances on Statistical Theory and
+Practice}. Statistical Science, 24(3), 343-360. \cr
 
 Hines, W. G. S. and Hines, R. J. O. (2000). \emph{Increased power with modified forms of the 
 Levene (med) test for heterogeneity of variance}. Biometrics 56, 451-454.\cr

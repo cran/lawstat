@@ -1,5 +1,5 @@
-eda345ae5dc1a9775bbbae4d6102442a *DESCRIPTION
-c3357deef73a032d0aa6a7f81f7702a5 *NAMESPACE
+284e97519cc2269d1378734684625849 *DESCRIPTION
+abb3c08623f565f08f9d825b1c517f7e *NAMESPACE
 2515ba4c8c5ca9b531b803a43485e425 *R/bartels.test.R
 f4b3c44e409a18cd13720646a49cc292 *R/brunner.munzel.test.R
 18b8973b4073f91b1a556a11130bbacd *R/cd.R
@@ -20,7 +20,7 @@ cc9d662548ee1f096f2b088042a167c3 *R/neuhauser.hothorn.test.R
 52540f51dd30f19b643ed9bb0f41cb9e *R/rqq.R
 b28fdc7e57a7063b2326b0e650299f3b *R/runs.test.R
 70a97017706765e4261112c14ec79fc3 *R/sj.test.R
-bb75b4d4f8c9f3a8f9e038dbe58c7e80 *R/symmetry.test.R
+cb8fc0fd77c12e373fc64aab665e0a7e *R/symmetry.test.R
 430a965f80113bae14cfba0763d40c19 *data/bias.rda
 da73f500bda27a33b58268c015b3de85 *data/blackhire.rda
 ac36359d8b7b090a5edc1a282658b7dd *data/data1963.rda
@@ -31,14 +31,14 @@ d7313410cc3dcff32da2bdd415231a3d *data/zuni.rda
 137bf1ea285e87c0df3e5ebba591da7a *man/bartels.test.Rd
 fd7b144afc46ed29c9f921b667675583 *man/bias.Rd
 19941078a56314aae286cfc0fdbdf73c *man/blackhire.Rd
-fa4de68f09ecbeeb3db9b042a855ad5d *man/brunner.munzel.test.Rd
+59ccfca78736d49038b6160a99fa3302 *man/brunner.munzel.test.Rd
 fdfac07fb52ec79a2f7e991d0c99190a *man/cd.Rd
 e3684e7eddc11dee26f7dcbfbaf746ad *man/cmh.test.Rd
 79ccb3c5633adf2ec9bffabacbf94409 *man/data1963.Rd
 31962ef03b37d624370a9b7da710d4f0 *man/gini.index.Rd
 4feca7c748f47c3fcfcaf4261cc23205 *man/j.maad.Rd
 94d10fdce36f260e75f5fadbe6f1e923 *man/laplace.test.Rd
-cb7dac361959ac4fbb17636e361ddb94 *man/levene.test.Rd
+c826213df6b8b582dc176ce82f3e437f *man/levene.test.Rd
 a9ac4b2b34849681367e5280f46f439a *man/lnested.test.Rd
 7bdb8244adfd1cc64935103b15df800b *man/lorenz.curve.Rd
 7197a1883634ab94161b9df0e170b492 *man/ltrend.test.Rd
@@ -54,5 +54,5 @@ e845a7c4fbaad62a28f38c87d0a7326a *man/rjb.test.Rd
 4e5cb38e67ca78086c3bed7dfdbe26b9 *man/rqq.Rd
 b40e66663ed143289fe68da518833b13 *man/runs.test.Rd
 5cfb7fdf203b6d763bcc5c266e2a1c63 *man/sj.test.Rd
-71201a4cd61a958f0ac9d43d51b518d2 *man/symmetry.test.Rd
+4a71aa78df5aa28aa1845d156e288076 *man/symmetry.test.Rd
 a57b362b30052b77ddd8fee198e2616c *man/zuni.Rd
