@@ -5,7 +5,7 @@
 This function performs the Bartels test for randomness which is
 based on the ranked version of von Neumann's ratio (RVN). Users can
 choose whether to test against two-sided, negative or positive
-correlation. NAs from the data are omitted.
+correlation. \code{NA}s from the data are omitted.
 }
 \usage{
 bartels.test(y, alternative = c("two.sided", "positive.correlated", 
@@ -14,20 +14,20 @@ bartels.test(y, alternative = c("two.sided", "positive.correlated",
 \arguments{
   \item{y}{a numeric vector of data values.}
   \item{alternative}{a character string specifying the alternative hypothesis,
-          must be one of "two.sided" (default), "negative.correlated" or
-          "positive.correlated".}
+          must be one of \code{"two.sided"} (default), \code{"negative.correlated"}, or
+          \code{"positive.correlated"}.}
 }
 \value{
   A list with the following components.
   \item{statistic}{the value of the standardized Bartels statistic.}
-  \item{parameter}{RVN Ratio.}
-  \item{p.value}{the p-value for the test.}
+  \item{parameter}{RVN ratio.}
+  \item{p.value}{the \eqn{p}-value for the test.}
   \item{data.name}{a character string giving the names of the data.}
   \item{alternative}{a character string describing the alternative hypothesis.}
 }
 \references{
-Bartels, R. (1982) \emph{The Rank Version of von Neumann's Ratio Test for Randomness}, 
-Journal of the American Statistical Association, 77, 40-46.
+Bartels, R. (1982). The rank version of von Neumann's ratio test for randomness. 
+\emph{Journal of the American Statistical Association} 77: 40--46.
 }
 \author{
   Kimihiro Noguchi, Wallace Hui, Yulia R. Gel, Joseph L. Gastwirth, Weiwen Miao

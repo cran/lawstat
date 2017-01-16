@@ -213,8 +213,9 @@ correction.method=c("none","correction.factor","zero.removal","zero.correction")
 
  if(kruskal.test == FALSE)
  {
-  statistic<-anova(lm(resp.mean ~ d))[1, 4]
-  p.value<-anova(lm(resp.mean ~ d))[1, 5]
+  res <- anova(lm(resp.mean ~ d))
+  statistic <- res[1, 4]
+  p.value <- res[1, 5]
  }
 
 ### if the Kruskal-Wallis test is used ###

@@ -1,6 +1,7 @@
-symmetry.test <- function(x, option=c("MGG", "CM", "M"), side=c("both", "left", "right"), boot=TRUE, B=1000, q=8/9){
+symmetry.test <- function(x, option=c("MGG", "CM", "M"), side=c("both", "left", "right"), 
+                          boot=TRUE, B=1000, q=8/9){
   DNAME <- deparse(substitute(x))  	
-  j <- seq(from=0, to=20, by=1)
+  j <- c(0:20)
   x <- na.omit(x)
   n <- length(x)    
   m <- unique(round(n*(q^j))[I(round(n*(q^j))>4)])
@@ -17,6 +18,7 @@ symmetry.test <- function(x, option=c("MGG", "CM", "M"), side=c("both", "left", 
 	if(option=="M"){
 	  METHOD <- "test by Mira (1998)"
 	  stat.function <- function(x){
+	    x <- sort(x)
 	    N <- length(x)
 	    D <- N^(1/5) * (x[N/2 + 0.5 * N^(4/5)] - x[N/2 - 0.5 * N^(4/5) + 1])
 	    g <- mean(x)-2/N*sum(x[x<=median(x)])

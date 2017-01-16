@@ -1,4 +1,4 @@
-284e97519cc2269d1378734684625849 *DESCRIPTION
+d2c7423957c8425b9efc0ac8bb68ff17 *DESCRIPTION
 abb3c08623f565f08f9d825b1c517f7e *NAMESPACE
 2515ba4c8c5ca9b531b803a43485e425 *R/bartels.test.R
 f4b3c44e409a18cd13720646a49cc292 *R/brunner.munzel.test.R
@@ -7,7 +7,7 @@ f4b3c44e409a18cd13720646a49cc292 *R/brunner.munzel.test.R
 08757bd51a5c6c93865ed9407f2cf152 *R/gini.index.R
 55b2ab078531d030335120be9e5f5309 *R/j.maad.R
 e779ba308fc682c559fb2ad530f977e3 *R/laplace.test.R
-0ed5ddcb87dae0d5fa8a019f8c71246d *R/levene.test.R
+70eefbe2f2c4c38dc9932b5ccc827898 *R/levene.test.R
 d3874ccd9e0774a7f77183fb92ed7d2e *R/lnested.test.R
 28cf44b38d6ccad7c440a71ce8127d55 *R/lorenz.curve.R
 d3fcdadaa0ab2c6f27e0bb8aac465c1e *R/ltrend.test.R
@@ -20,7 +20,7 @@ cc9d662548ee1f096f2b088042a167c3 *R/neuhauser.hothorn.test.R
 52540f51dd30f19b643ed9bb0f41cb9e *R/rqq.R
 b28fdc7e57a7063b2326b0e650299f3b *R/runs.test.R
 70a97017706765e4261112c14ec79fc3 *R/sj.test.R
-cb8fc0fd77c12e373fc64aab665e0a7e *R/symmetry.test.R
+1715ef18408936642a1f71060343dfb4 *R/symmetry.test.R
 430a965f80113bae14cfba0763d40c19 *data/bias.rda
 da73f500bda27a33b58268c015b3de85 *data/blackhire.rda
 ac36359d8b7b090a5edc1a282658b7dd *data/data1963.rda
@@ -28,11 +28,11 @@ bc7f7fce916dc38dd04fbfd60ce92fa0 *data/michigan.rda
 03d4869e002d07ea616d39bed232b090 *data/popdata.rda
 296af35b20341e4f3fab28dd4f18bd6e *data/pot.rda
 d7313410cc3dcff32da2bdd415231a3d *data/zuni.rda
-137bf1ea285e87c0df3e5ebba591da7a *man/bartels.test.Rd
+76b9b28181bc464fd950cf354cf16fee *man/bartels.test.Rd
 fd7b144afc46ed29c9f921b667675583 *man/bias.Rd
-19941078a56314aae286cfc0fdbdf73c *man/blackhire.Rd
-59ccfca78736d49038b6160a99fa3302 *man/brunner.munzel.test.Rd
-fdfac07fb52ec79a2f7e991d0c99190a *man/cd.Rd
+f3d374916e0650932e62e6087c4eb2da *man/blackhire.Rd
+d86d25121cd5c83204dc6fb695c3db3b *man/brunner.munzel.test.Rd
+18018c0e285dbe58acb884bbb3efca35 *man/cd.Rd
 e3684e7eddc11dee26f7dcbfbaf746ad *man/cmh.test.Rd
 79ccb3c5633adf2ec9bffabacbf94409 *man/data1963.Rd
 31962ef03b37d624370a9b7da710d4f0 *man/gini.index.Rd
@@ -54,5 +54,5 @@ e845a7c4fbaad62a28f38c87d0a7326a *man/rjb.test.Rd
 4e5cb38e67ca78086c3bed7dfdbe26b9 *man/rqq.Rd
 b40e66663ed143289fe68da518833b13 *man/runs.test.Rd
 5cfb7fdf203b6d763bcc5c266e2a1c63 *man/sj.test.Rd
-4a71aa78df5aa28aa1845d156e288076 *man/symmetry.test.Rd
+c79d100d73fb7fe54f333a8c70b79826 *man/symmetry.test.Rd
 a57b362b30052b77ddd8fee198e2616c *man/zuni.Rd
