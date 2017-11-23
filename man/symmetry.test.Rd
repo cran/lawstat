@@ -51,7 +51,7 @@ Ruschendorf, L. (2001). \emph{Wasserstein metric}. In: M. Hazewinkel (Ed.) Encyc
 \author{Joseph L. Gastwirth, Yulia R. Gel, Wallace Hui, Vyacheslav Lyubchich, Weiwen Miao, Xingyu Wang (in alphabetical order)} 
 
 \examples{
-data(zuni)
+data(zuni) #run ?zuni to see the data description
 symmetry.test(zuni[,"Revenue"], boot = FALSE)
 
 ##	Symmetry test by Miao, Gel, and Gastwirth (2006)

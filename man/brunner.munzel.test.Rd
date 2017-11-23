@@ -29,6 +29,11 @@ A list containing the following components:
     \item{data.name}{a character string giving the name of the data.}
     \item{estimate}{an estimate of the effect size, i.e., \eqn{P(X < Y) + 0.5 * P(X =Y )}}
 }
+
+\note{
+There exist discrepancies with Brunner and Munzel (2000) because there is a typo in the paper. The corrected version is in Neubert and Brunner (2007) (e.g., compare the estimates for the case study on pain scores). The current R function follows Neubert and Brunner (2007).
+}
+
 \references{
 Brunner, E. and Munzel, U. (2000). The nonparametric Behrens-Fisher problem: asymptotic theory and a small-sample approximation. \emph{Biometrical Journal} 42: 17--25.
 
@@ -38,14 +43,15 @@ Reiczigel, J., Zakarias, I., and Rozsa, L. (2005). A bootstrap test of stochasti
 }
 
 \author{
-Wallace Hui, Yulia R. Gel, Joseph L. Gastwirth, Weiwen Miao
+Wallace Hui, Yulia R. Gel, Joseph L. Gastwirth, Weiwen Miao.
 This function was updated with the help of Dr. Ian Fellows
 }
+
 \seealso{\code{wilcox.test}, \code{pwilcox}}
 \examples{
 ## Pain score on the third day after surgery for 14 patients under
 ## the treatment Y and 11 patients under the treatment N
-## (see Brunner and Munzel, 2000).
+## (see Brunner and Munzel, 2000; Neubert and Brunner, 2007).
 
 Y <- c(1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 4, 1, 1)
 N <- c(3, 3, 4, 3, 1, 2, 3, 1, 1, 5, 4)

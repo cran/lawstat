@@ -109,8 +109,6 @@ in factorial designs}. Psychometrika 43, 327-344.
 \code{\link{mma.test}}, \code{\link{robust.mmm.test}}}
 \examples{
 
-library(Hmisc)
-library(Kendall)
 data(pot)
 lnested.test(pot[,"obs"], pot[,"type"], location="median", tail="left", 
 correction.method="zero.correction")$N

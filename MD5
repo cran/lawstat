@@ -1,5 +1,5 @@
-d2c7423957c8425b9efc0ac8bb68ff17 *DESCRIPTION
-abb3c08623f565f08f9d825b1c517f7e *NAMESPACE
+44e7a31253a5ce54fa995e5cfb9124bd *DESCRIPTION
+93e372ef7de752368c9c7e4c1fe972fd *NAMESPACE
 2515ba4c8c5ca9b531b803a43485e425 *R/bartels.test.R
 f4b3c44e409a18cd13720646a49cc292 *R/brunner.munzel.test.R
 18b8973b4073f91b1a556a11130bbacd *R/cd.R
@@ -8,9 +8,9 @@ f4b3c44e409a18cd13720646a49cc292 *R/brunner.munzel.test.R
 55b2ab078531d030335120be9e5f5309 *R/j.maad.R
 e779ba308fc682c559fb2ad530f977e3 *R/laplace.test.R
 70eefbe2f2c4c38dc9932b5ccc827898 *R/levene.test.R
-d3874ccd9e0774a7f77183fb92ed7d2e *R/lnested.test.R
+1121b5d8b3552beab2167b989dac0842 *R/lnested.test.R
 28cf44b38d6ccad7c440a71ce8127d55 *R/lorenz.curve.R
-d3fcdadaa0ab2c6f27e0bb8aac465c1e *R/ltrend.test.R
+f1955dff2ea7fca4c6b469898533d66e *R/ltrend.test.R
 66c2727fc9ea91e2616dcc0e4e3a1158 *R/mma.test.R
 cc9d662548ee1f096f2b088042a167c3 *R/neuhauser.hothorn.test.R
 5feff01d4ed5886580b9640ec86d75d2 *R/nig.parameter.R
@@ -31,7 +31,7 @@ d7313410cc3dcff32da2bdd415231a3d *data/zuni.rda
 76b9b28181bc464fd950cf354cf16fee *man/bartels.test.Rd
 fd7b144afc46ed29c9f921b667675583 *man/bias.Rd
 f3d374916e0650932e62e6087c4eb2da *man/blackhire.Rd
-d86d25121cd5c83204dc6fb695c3db3b *man/brunner.munzel.test.Rd
+d5b2ca28ba490722b9cc891d926743bc *man/brunner.munzel.test.Rd
 18018c0e285dbe58acb884bbb3efca35 *man/cd.Rd
 e3684e7eddc11dee26f7dcbfbaf746ad *man/cmh.test.Rd
 79ccb3c5633adf2ec9bffabacbf94409 *man/data1963.Rd
@@ -39,9 +39,9 @@ e3684e7eddc11dee26f7dcbfbaf746ad *man/cmh.test.Rd
 4feca7c748f47c3fcfcaf4261cc23205 *man/j.maad.Rd
 94d10fdce36f260e75f5fadbe6f1e923 *man/laplace.test.Rd
 c826213df6b8b582dc176ce82f3e437f *man/levene.test.Rd
-a9ac4b2b34849681367e5280f46f439a *man/lnested.test.Rd
+f1e5f1042d217daad97f4e3479c7ae9f *man/lnested.test.Rd
 7bdb8244adfd1cc64935103b15df800b *man/lorenz.curve.Rd
-7197a1883634ab94161b9df0e170b492 *man/ltrend.test.Rd
+adf5d09c24b5e2c413d72fcdbf9635cc *man/ltrend.test.Rd
 82f3d9634c297795f8224932d15c0f8b *man/michigan.Rd
 eb4ed2c47c660af62427f81225c123e1 *man/mma.test.Rd
 0865d16e40c5ff55581616f53c84be1b *man/neuhauser.hothorn.test.Rd
@@ -54,5 +54,5 @@ e845a7c4fbaad62a28f38c87d0a7326a *man/rjb.test.Rd
 4e5cb38e67ca78086c3bed7dfdbe26b9 *man/rqq.Rd
 b40e66663ed143289fe68da518833b13 *man/runs.test.Rd
 5cfb7fdf203b6d763bcc5c266e2a1c63 *man/sj.test.Rd
-c79d100d73fb7fe54f333a8c70b79826 *man/symmetry.test.Rd
+58e1af1090843bd22a1d9e658dc45f57 *man/symmetry.test.Rd
 a57b362b30052b77ddd8fee198e2616c *man/zuni.Rd

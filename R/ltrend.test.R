@@ -344,7 +344,7 @@ correlation.method = c("pearson","kendall","spearman"))
   if (tail == "left") 
   {
    METHOD<-paste(METHOD, "(left-tailed with Spearman correlation coefficient)")
-   p.value.temp<-spearman.test(d,z)[5]
+   p.value.temp <- cor.test(d, z, method = "spearman")$p.value
    if(correlation < 0)
    {
     p.value<-p.value.temp/2
@@ -363,7 +363,7 @@ correlation.method = c("pearson","kendall","spearman"))
   if (tail == "right") 
   {
    METHOD<-paste(METHOD, "(right-tailed with Spearman correlation coefficient)")
-   p.value.temp<-spearman.test(d,z)[5]
+   p.value.temp <- cor.test(d, z, method = "spearman")$p.value
    if(correlation > 0)
    {
     p.value<-p.value.temp/2
@@ -382,7 +382,7 @@ correlation.method = c("pearson","kendall","spearman"))
   if (tail == "both") 
   {
    METHOD<-paste(METHOD, "(two-tailed with Spearman correlation coefficient)")
-   p.value<-spearman.test(d,z)[5]
+   p.value <- cor.test(d, z, method = "spearman")$p.value
    q.value<-1-p.value 
    log.p.value<-log(p.value)
    log.q.value<-log(q.value)
