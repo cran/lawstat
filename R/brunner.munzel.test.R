@@ -1,5 +1,6 @@
+brunner.munzel.test <- function(x, ...) UseMethod("brunner.munzel.test")
 
-brunner.munzel.test<-function (x, y, alternative = c("two.sided", "greater", "less"), 
+brunner.munzel.test.default <- function (x, y, alternative = c("two.sided", "greater", "less"), 
     alpha = 0.05) 
 {
     alternative <- match.arg(alternative)
@@ -48,4 +49,30 @@ brunner.munzel.test<-function (x, y, alternative = c("two.sided", "greater", "le
     structure(list(estimate = ESTIMATE, conf.int = CONF.INT, 
         statistic = STATISTIC, parameter = PARAMETER, p.value = p.value, 
         method = METHOD, data.name = DNAME), class = "htest")
+}
+
+brunner.munzel.test.formula <-
+    function(formula, data, subset, na.action, ...)
+{
+    if(missing(formula)
+       || (length(formula) != 3L)
+       || (length(attr(terms(formula[-2L]), "term.labels")) != 1L))
+        stop("'formula' missing or incorrect")
+    m <- match.call(expand.dots = FALSE)
+    if(is.matrix(eval(m$data, parent.frame())))
+        m$data <- as.data.frame(data)
+    ## need stats:: for non-standard evaluation
+    m[[1L]] <- quote(stats::model.frame)
+    m$... <- NULL
+    mf <- eval(m, parent.frame())
+    DNAME <- paste(names(mf), collapse = " by ")
+    names(mf) <- NULL
+    response <- attr(attr(mf, "terms"), "response")
+    g <- factor(mf[[-response]])
+    if(nlevels(g) != 2L)
+        stop("grouping factor must have exactly 2 levels")
+    DATA <<- setNames(split(mf[[response]], g), c("x", "y"))
+    y <- do.call("brunner.munzel.test", c(DATA, list(...)))
+    y$data.name <- DNAME
+    y
 }
