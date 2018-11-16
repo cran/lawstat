@@ -1,5 +1,7 @@
 \name{brunner.munzel.test}
 \alias{brunner.munzel.test}
+\alias{brunner.munzel.test.default}
+\alias{brunner.munzel.test.formula}
 \title{The Brunner--Munzel Test for Stochastic Equality}
 \description{
 This function performs the Brunner--Munzel test for stochastic
@@ -7,8 +9,12 @@ equality of two samples, which is also known as the Generalized Wilcoxon
 Test. \code{NA}s from the data are omitted.
 }
 \usage{
-brunner.munzel.test(x, y, alternative = c("two.sided", "greater",
-"less"), alpha = 0.05)
+brunner.munzel.test(x, \dots)
+
+\method{brunner.munzel.test}{default}(x, y, alternative = c("two.sided",
+ "greater", "less"), alpha = 0.05)
+
+\method{brunner.munzel.test}{formula}(formula, data, subset, na.action, \dots)
 }
 \arguments{
     \item{x}{the numeric vector of data values from the sample 1.}
@@ -18,6 +24,19 @@ brunner.munzel.test(x, y, alternative = c("two.sided", "greater",
     \item{alternative}{a character string specifying the alternative
          hypothesis, must be one of \code{"two.sided"} (default), \code{"greater"} or
             \code{"less"}. User can specify just the initial letter.}
+    \item{formula}{a formula of the form \code{lhs ~ rhs} where \code{lhs}
+          is a numeric variable giving the data values and \code{rhs} a factor
+          with two levels giving the corresponding groups.}
+    \item{data}{an optional matrix or data frame (or similar: see
+          \code{\link{model.frame}}) containing the variables in the
+          formula \code{formula}.  By default the variables are taken from
+          \code{environment(formula)}.}
+    \item{subset}{an optional vector specifying a subset of observations
+          to be used.}
+    \item{na.action}{a function which indicates what should happen when
+          the data contain \code{NA}s.  Defaults to
+         \code{getOption("na.action")}.}
+    \item{\dots}{further arguments to be passed to or from methods.}
 }
 
 \value{
@@ -66,6 +85,27 @@ brunner.munzel.test(Y, N)
 ## sample estimates:
 ## P(X<Y)+.5*P(X=Y)
 ##        0.788961
+
+
+## Formula interface.
+dat <- data.frame(
+    value = c(Y, N),
+    group = rep(c("Y", "N"), c(length(Y), length(N)))
+)
+
+brunner.munzel.test(value ~ group, data = dat)
+
+##       Brunner-Munzel Test
+## data:  value by group
+## Brunner-Munzel Test Statistic = -3.1375, df = 17.683, p-value =
+## 0.005786
+## 95 percent confidence interval:
+##  0.01729479 0.40478314
+## sample estimates:
+## P(X<Y)+.5*P(X=Y)
+##         0.211039
+
+## The same p-value is obtained.
 }
 \keyword{htest}
 \keyword{nonparametric}
