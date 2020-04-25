@@ -4,8 +4,10 @@
 \alias{bartels.test}
 \title{Ranked Version of von Neumann's Ratio Test for Randomness}
 \usage{
-bartels.test(y, alternative = c("two.sided", "positive.correlated",
-  "negative.correlated"))
+bartels.test(
+  y,
+  alternative = c("two.sided", "positive.correlated", "negative.correlated")
+)
 }
 \arguments{
 \item{y}{a numeric vector of data values.}

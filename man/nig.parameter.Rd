@@ -4,8 +4,12 @@
 \alias{nig.parameter}
 \title{Generate Parameters for the Normal Inverse Gaussian (NIG) Distribution}
 \usage{
-nig.parameter(mean = mean, variance = variance, kurtosis = kurtosis,
-  skewness = skewness)
+nig.parameter(
+  mean = mean,
+  variance = variance,
+  kurtosis = kurtosis,
+  skewness = skewness
+)
 }
 \arguments{
 \item{mean}{mean of the NIG distribution.}

@@ -4,12 +4,14 @@
 \name{data1963}
 \alias{data1963}
 \title{Population Size and Number of Senators and Representatives in 1963}
-\format{A data frame with 23 observations on the following 3 variables:
+\format{
+A data frame with 23 observations on the following 3 variables:
 \describe{
     \item{\code{pop1963}}{population in 1963;}
     \item{\code{sen1963}}{number of senators in the district in 1963;}
     \item{\code{rep1963}}{number of representatives in the district in 1963.}
-}}
+}
+}
 \source{
 \insertCite{Gastwirth_1972;textual}{lawstat}.
 }

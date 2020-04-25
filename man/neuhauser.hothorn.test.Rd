@@ -2,13 +2,18 @@
 % Please edit documentation in R/neuhauser.hothorn.test.R
 \name{neuhauser.hothorn.test}
 \alias{neuhauser.hothorn.test}
-\title{Neuhauser-Hothorn Double Contrast Test for a Monotonic Trend in Variances}
+\title{Neuhauser--Hothorn Double Contrast Test for a Monotonic Trend in Variances}
 \usage{
-neuhauser.hothorn.test(y, group, location = c("median", "mean",
-  "trim.mean"), tail = c("right", "left", "both"), trim.alpha = 0.25,
-  bootstrap = FALSE, num.bootstrap = 1000,
-  correction.method = c("none", "correction.factor", "zero.removal",
-  "zero.correction"))
+neuhauser.hothorn.test(
+  y,
+  group,
+  location = c("median", "mean", "trim.mean"),
+  tail = c("right", "left", "both"),
+  trim.alpha = 0.25,
+  bootstrap = FALSE,
+  num.bootstrap = 1000,
+  correction.method = c("none", "correction.factor", "zero.removal", "zero.correction")
+)
 }
 \arguments{
 \item{y}{a numeric vector of data values.}

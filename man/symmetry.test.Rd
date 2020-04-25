@@ -4,8 +4,14 @@
 \alias{symmetry.test}
 \title{Test of Symmetry}
 \usage{
-symmetry.test(x, option = c("MGG", "CM", "M"), side = c("both", "left",
-  "right"), boot = TRUE, B = 1000, q = 8/9)
+symmetry.test(
+  x,
+  option = c("MGG", "CM", "M"),
+  side = c("both", "left", "right"),
+  boot = TRUE,
+  B = 1000,
+  q = 8/9
+)
 }
 \arguments{
 \item{x}{data to be tested for symmetry.}

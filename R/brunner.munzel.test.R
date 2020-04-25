@@ -1,7 +1,7 @@
 #' Brunner--Munzel Test for Stochastic Equality
 #' 
 #' The Brunner--Munzel test for stochastic equality of two samples, 
-#' which is also known as the Generalized Wilcoxon Test. 
+#' which is also known as the Generalized Wilcoxon test. 
 #' \code{NA}s from the data are omitted.
 #' 
 #' @details There exist discrepancies with \insertCite{Brunner_Munzel_2000;textual}{lawstat}
@@ -25,7 +25,7 @@
 #' \item{conf.int}{the confidence interval.}
 #' \item{p.value}{the \eqn{p}-value of the test.}
 #' \item{data.name}{a character string giving the name of the data.}
-#' \item{estimate}{an estimate of the effect size, i.e., \eqn{P(X < Y) + 0.5 \times P(X =Y )}.}
+#' \item{estimate}{an estimate of the effect size, i.e., \eqn{P(X < Y) + 0.5 P(X =Y )}.}
 #' 
 #' @references
 #' \insertAllCited{}

@@ -4,8 +4,10 @@
 \name{zuni}
 \alias{zuni}
 \title{The Zuni Data from the Law Case: Zuni Public School v. United States Department of Education}
-\format{A data frame with 89 observations on 3 variables: \code{District}, 
-\code{Revenue}, and \code{Mem} (number of students).}
+\format{
+A data frame with 89 observations on 3 variables: \code{District}, 
+\code{Revenue}, and \code{Mem} (number of students).
+}
 \source{
 \insertCite{Gastwirth_2006;textual}{lawstat}.
 }

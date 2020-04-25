@@ -4,10 +4,20 @@
 \alias{rqq}
 \title{Test of Normality Using RQQ Plots}
 \usage{
-rqq(y, plot.it = TRUE, square.it = TRUE, scale = c("MAD", "J",
-  "classical"), location = c("median", "mean"), line.it = FALSE,
-  line.type = c("45 degrees", "QQ"), col.line = 1, lwd = 1,
-  outliers = FALSE, alpha = 0.05, ...)
+rqq(
+  y,
+  plot.it = TRUE,
+  square.it = TRUE,
+  scale = c("MAD", "J", "classical"),
+  location = c("median", "mean"),
+  line.it = FALSE,
+  line.type = c("45 degrees", "QQ"),
+  col.line = 1,
+  lwd = 1,
+  outliers = FALSE,
+  alpha = 0.05,
+  ...
+)
 }
 \arguments{
 \item{y}{the input data.}

@@ -4,14 +4,16 @@
 \name{bias}
 \alias{bias}
 \title{Prediction Errors ("Biases") of Surface Temperature Forecasts}
-\format{A numeric vector of length 96.}
+\format{
+A numeric vector of length 96.
+}
 \source{
 The data were kindly provided by the research group of Professor Clifford 
 Mass in the Department of Atmospheric Sciences at the University of Washington. 
 Detailed information about the Pacific Northwest prediction effort and the 
 associated data archive can be found online at 
-\url{www.atmos.washington.edu/mm5rt/info.html} and
-\url{www.atmos.washington.edu/marka/pnw.html}, respectively.
+\url{https://a.atmos.uw.edu/mm5rt/info.html} and
+\url{https://atmos.uw.edu/marka/pnw.html}, respectively.
 }
 \usage{
 data(bias)

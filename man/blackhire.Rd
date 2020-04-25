@@ -4,7 +4,9 @@
 \name{blackhire}
 \alias{blackhire}
 \title{Hiring Data for Eight Professions and Two Races}
-\format{An array with 2 rows by 2 columns by 8 levels.}
+\format{
+An array with 2 rows by 2 columns by 8 levels.
+}
 \usage{
 data(blackhire)
 }

@@ -4,9 +4,18 @@
 \alias{lorenz.curve}
 \title{Lorenz Curve}
 \usage{
-lorenz.curve(data, weight = NULL, mul = FALSE, plot.it = TRUE,
-  main = NULL, xlab = NULL, ylab = NULL, xlim = c(0, 1),
-  ylim = c(0, 1), ...)
+lorenz.curve(
+  data,
+  weight = NULL,
+  mul = FALSE,
+  plot.it = TRUE,
+  main = NULL,
+  xlab = NULL,
+  ylab = NULL,
+  xlim = c(0, 1),
+  ylim = c(0, 1),
+  ...
+)
 }
 \arguments{
 \item{data}{input data. If the argument is an array, a matrix, a data.frame, or a list 

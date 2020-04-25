@@ -2,7 +2,7 @@
 % Please edit documentation in R/cmh.test.R
 \name{cmh.test}
 \alias{cmh.test}
-\title{The Cochran-Mantel-Haenszel Chi-square Test}
+\title{The Cochran--Mantel--Haenszel Chi-square Test}
 \usage{
 cmh.test(x)
 }

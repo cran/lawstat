@@ -1,4 +1,4 @@
-#' The Cochran-Mantel-Haenszel Chi-square Test
+#' The Cochran--Mantel--Haenszel Chi-square Test
 #' 
 #' The Cochran--Mantel--Haenszel (CMH) procedure tests homogeneity of population 
 #' proportions after taking into account other factors. This procedure is widely 

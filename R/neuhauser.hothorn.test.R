@@ -1,4 +1,4 @@
-#' Neuhauser-Hothorn Double Contrast Test for a Monotonic Trend in Variances
+#' Neuhauser--Hothorn Double Contrast Test for a Monotonic Trend in Variances
 #' 
 #' The test statistic suggested by \insertCite{Neuhauser_Hothorn_2000;textual}{lawstat}.
 #' 

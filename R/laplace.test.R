@@ -10,6 +10,9 @@
 #' \insertCite{Stephens_1986;textual}{lawstat} and 
 #' \insertCite{Puig_Stephens_2000;textual}{lawstat}.
 #'
+#' @details The function originally used \code{plaplace} function from R package \code{VGAM}
+#' \insertCite{VGAM}{lawstat}, however, to resolve dependencies between packages, 
+#' the \code{plaplace} function was copied entirely to the current package under the name \code{VGAM_plaplace}.
 #'
 #' @param y a numeric vector of data values.
 #'
@@ -47,7 +50,7 @@
     n <- length(y)
     a <- median(y)
     b <- mean(abs(y-a))
-    z <- VGAM::plaplace((y - a)/b)
+    z <- VGAM_plaplace((y - a)/b)
     ### Anderson-Darling statistic ###
     A2 <- -mean((2 * seq(1:n) - 1) * (log(z) + log(1 - rev(z))))-n
     ### Cramer-von Mises statistic ###

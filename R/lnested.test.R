@@ -50,7 +50,7 @@
 #' \item{T}{the statistic and \eqn{p}-value of the test based on the Tippett \eqn{p}-value combination.}
 #' \item{F}{the statistic and \eqn{p}-value of the test based on the Fisher \eqn{p}-value combination.}
 #' \item{N}{the statistic and \eqn{p}-value of the test based on the Liptak \eqn{p}-value combination.}
-#' \item{L}{the statistic and \eqn{p}-value of the test based on the Mudholkar-George \eqn{p}-value combination.}
+#' \item{L}{the statistic and \eqn{p}-value of the test based on the Mudholkar--George \eqn{p}-value combination.}
 #'
 #' Each of the list elements is a list of class \code{"htest"} with the following elements:
 #' \item{statistic}{the value of the test statistic expressed in terms of correlation (Pearson, Kendall, or Spearman).}

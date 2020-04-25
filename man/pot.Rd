@@ -4,9 +4,11 @@
 \name{pot}
 \alias{pot}
 \title{Apertures of Chupa Pots from Three Philippine Communities}
-\format{A data frame with 343 observations of 2 variables: \code{obs} 
+\format{
+A data frame with 343 observations of 2 variables: \code{obs} 
 (integer values of observed apertures) 
-and locations (factor with 3 levels).}
+and locations (factor with 3 levels).
+}
 \source{
 The data are kindly provided by Professor Kvamme 
 \insertCite{Kvamme_etal_1996}{lawstat}.

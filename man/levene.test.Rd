@@ -4,10 +4,16 @@
 \alias{levene.test}
 \title{Levene's Test of Equality of Variances}
 \usage{
-levene.test(y, group, location = c("median", "mean", "trim.mean"),
-  trim.alpha = 0.25, bootstrap = FALSE, num.bootstrap = 1000,
-  kruskal.test = FALSE, correction.method = c("none",
-  "correction.factor", "zero.removal", "zero.correction"))
+levene.test(
+  y,
+  group,
+  location = c("median", "mean", "trim.mean"),
+  trim.alpha = 0.25,
+  bootstrap = FALSE,
+  num.bootstrap = 1000,
+  kruskal.test = FALSE,
+  correction.method = c("none", "correction.factor", "zero.removal", "zero.correction")
+)
 }
 \arguments{
 \item{y}{a numeric vector of data values.}

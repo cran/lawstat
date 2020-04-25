@@ -28,6 +28,11 @@ By default, \code{NA}s are omitted. For the tables of critical values, see
 \insertCite{Stephens_1986;textual}{lawstat} and 
 \insertCite{Puig_Stephens_2000;textual}{lawstat}.
 }
+\details{
+The function originally used \code{plaplace} function from R package \code{VGAM}
+\insertCite{VGAM}{lawstat}, however, to resolve dependencies between packages, 
+the \code{plaplace} function was copied entirely to the current package under the name \code{VGAM_plaplace}.
+}
 \examples{
 ## Differences in flood levels example taken from Puig and Stephens (2000)
 y <- c(1.96,1.97,3.60,3.80,4.79,5.66,5.76,5.78,6.27,6.30,6.76,7.65,7.84,7.99,8.51,9.18,

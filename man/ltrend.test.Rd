@@ -4,12 +4,18 @@
 \alias{ltrend.test}
 \title{Test for a Linear Trend in Variances}
 \usage{
-ltrend.test(y, group, score = NULL, location = c("median", "mean",
-  "trim.mean"), tail = c("right", "left", "both"), trim.alpha = 0.25,
-  bootstrap = FALSE, num.bootstrap = 1000,
-  correction.method = c("none", "correction.factor", "zero.removal",
-  "zero.correction"), correlation.method = c("pearson", "kendall",
-  "spearman"))
+ltrend.test(
+  y,
+  group,
+  score = NULL,
+  location = c("median", "mean", "trim.mean"),
+  tail = c("right", "left", "both"),
+  trim.alpha = 0.25,
+  bootstrap = FALSE,
+  num.bootstrap = 1000,
+  correction.method = c("none", "correction.factor", "zero.removal", "zero.correction"),
+  correlation.method = c("pearson", "kendall", "spearman")
+)
 }
 \arguments{
 \item{y}{a numeric vector of data values.}

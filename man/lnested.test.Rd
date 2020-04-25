@@ -4,12 +4,17 @@
 \alias{lnested.test}
 \title{Test for a Monotonic Trend in Variances}
 \usage{
-lnested.test(y, group, location = c("median", "mean", "trim.mean"),
-  tail = c("right", "left", "both"), trim.alpha = 0.25,
-  bootstrap = FALSE, num.bootstrap = 1000,
-  correction.method = c("none", "correction.factor", "zero.removal",
-  "zero.correction"), correlation.method = c("pearson", "kendall",
-  "spearman"))
+lnested.test(
+  y,
+  group,
+  location = c("median", "mean", "trim.mean"),
+  tail = c("right", "left", "both"),
+  trim.alpha = 0.25,
+  bootstrap = FALSE,
+  num.bootstrap = 1000,
+  correction.method = c("none", "correction.factor", "zero.removal", "zero.correction"),
+  correlation.method = c("pearson", "kendall", "spearman")
+)
 }
 \arguments{
 \item{y}{a numeric vector of data values.}
@@ -58,7 +63,7 @@ A list with the following elements:
 \item{T}{the statistic and \eqn{p}-value of the test based on the Tippett \eqn{p}-value combination.}
 \item{F}{the statistic and \eqn{p}-value of the test based on the Fisher \eqn{p}-value combination.}
 \item{N}{the statistic and \eqn{p}-value of the test based on the Liptak \eqn{p}-value combination.}
-\item{L}{the statistic and \eqn{p}-value of the test based on the Mudholkar-George \eqn{p}-value combination.}
+\item{L}{the statistic and \eqn{p}-value of the test based on the Mudholkar--George \eqn{p}-value combination.}
 
 Each of the list elements is a list of class \code{"htest"} with the following elements:
 \item{statistic}{the value of the test statistic expressed in terms of correlation (Pearson, Kendall, or Spearman).}

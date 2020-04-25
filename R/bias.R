@@ -15,8 +15,8 @@
 #' Mass in the Department of Atmospheric Sciences at the University of Washington. 
 #' Detailed information about the Pacific Northwest prediction effort and the 
 #' associated data archive can be found online at 
-#' \url{www.atmos.washington.edu/mm5rt/info.html} and
-#' \url{www.atmos.washington.edu/marka/pnw.html}, respectively.
+#' \url{https://a.atmos.uw.edu/mm5rt/info.html} and
+#' \url{https://atmos.uw.edu/marka/pnw.html}, respectively.
 #' 
 #' @keywords data
 NULL

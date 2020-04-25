@@ -4,12 +4,14 @@
 \name{popdata}
 \alias{popdata}
 \title{Population Size of 33 Districts of the Tennessee Legislature in 1900, 1960, and 1972}
-\format{A data frame with 33 observations on the following 3 numeric variables:
+\format{
+A data frame with 33 observations on the following 3 numeric variables:
 \describe{
     \item{\code{pop1900}}{population data in 1900}
     \item{\code{pop1960}}{population data in 1960}
     \item{\code{pop1972}}{population data in 1972}
-}}
+}
+}
 \source{
 \insertCite{Gastwirth_1988v1;textual}{lawstat}.
 }

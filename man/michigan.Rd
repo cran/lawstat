@@ -4,7 +4,9 @@
 \name{michigan}
 \alias{michigan}
 \title{Dioxin Levels for Counties in the Upper Peninsula of Michigan}
-\format{A numeric vector of length 16.}
+\format{
+A numeric vector of length 16.
+}
 \source{
 The Environmental Protection Agency (EPA) of the State of Michigan.
 }

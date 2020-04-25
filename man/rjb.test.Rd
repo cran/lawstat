@@ -4,8 +4,12 @@
 \alias{rjb.test}
 \title{Test of Normailty -- Robust Jarque--Bera Test}
 \usage{
-rjb.test(x, option = c("RJB", "JB"),
-  crit.values = c("chisq.approximation", "empirical"), N = 0)
+rjb.test(
+  x,
+  option = c("RJB", "JB"),
+  crit.values = c("chisq.approximation", "empirical"),
+  N = 0
+)
 }
 \arguments{
 \item{x}{a numeric vector of data values.}
