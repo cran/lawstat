@@ -10,7 +10,8 @@ Authors@R: c(person("Joseph L.", "Gastwirth", role = "aut"),
                     email = "lyubchic@umces.edu",
                     comment = c(ORCID = "0000-0001-7936-4285")),
              person("Weiwen", "Miao", role = "aut"),
-             person("Kimihiro", "Noguchi", role = "aut"))
+             person("Kimihiro", "Noguchi", role = "aut"),
+             person("Meichen", "Huang", role = "aut"))
 Depends: R (>= 2.6.0)
 Imports: Kendall, mvtnorm, Rdpack
 Suggests: fBasics
