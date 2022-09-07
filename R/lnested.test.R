@@ -81,7 +81,7 @@
 #'              correction.method = "zero.correction",
 #'              bootstrap = TRUE, num.bootstrap = 500)$N
 #'
-`lnested.test` <- function(y,
+lnested.test <- function(y,
                            group,
                            location = c("median", "mean", "trim.mean"),
                            tail = c("right", "left", "both"),

@@ -69,7 +69,7 @@
 #' data(michigan)
 #' rqq(michigan)
 #' 
-`rqq` <- function (y,
+rqq <- function (y,
                    plot.it = TRUE,
                    square.it = TRUE,
                    scale = c("MAD", "J", "classical"),

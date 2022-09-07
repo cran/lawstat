@@ -44,7 +44,7 @@
 #'              correction.method = "zero.correction", 
 #'              bootstrap = TRUE, num.bootstrap = 500)
 #'              
-`ltrend.test` <-
+ltrend.test <-
     function (y,
               group,
               score = NULL,

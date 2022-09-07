@@ -36,7 +36,7 @@
 #' data(pot)
 #' robust.mmm.test(pot[, "obs"], pot[, "type"], tail = "left")$N
 #' 
-`robust.mmm.test` <-
+robust.mmm.test <-
     function(y, group, tail = c("right", "left", "both"))
     {
         ### stop the code if the length of y does not match the length of group ###

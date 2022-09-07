@@ -47,7 +47,7 @@
 #'             location = "median", correction.method = "zero.correction", 
 #'             bootstrap = TRUE, num.bootstrap = 500)
 #'             
-`levene.test` <-  function(y,
+levene.test <-  function(y,
                            group,
                            location = c("median", "mean", "trim.mean"),
                            trim.alpha = 0.25,

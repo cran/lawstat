@@ -36,7 +36,7 @@
 #'                        tail = "left", correction.method = "zero.correction", 
 #'                        bootstrap = TRUE, num.bootstrap = 500)
 #'                        
-`neuhauser.hothorn.test` <-
+neuhauser.hothorn.test <-
     function(y,
              group,
              location = c("median", "mean", "trim.mean"),

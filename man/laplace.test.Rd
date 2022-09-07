@@ -46,9 +46,6 @@ laplace.test(y)$D
 \references{
 \insertAllCited{}
 }
-\seealso{
-\code{\link[VGAM]{plaplace}}
-}
 \author{
 Kimihiro Noguchi, Yulia R. Gel
 }

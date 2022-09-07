@@ -33,7 +33,7 @@
 #' gini.index(popdata[,"pop1900"])
 #' gini.index(popdata[,"pop1972"])
 #' 
-`gini.index` <- function(x)
+gini.index <- function(x)
 {
     DNAME = deparse(substitute(x))
     x <- na.omit(x)

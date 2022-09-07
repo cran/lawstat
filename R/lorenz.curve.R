@@ -64,7 +64,7 @@
 #' ## as weight argument.
 #' lorenz.curve(data1963[, "pop1963"], data1963[, "rep1963"], mul = TRUE)
 #' 
-`lorenz.curve` <- function(data,
+lorenz.curve <- function(data,
                            weight = NULL,
                            mul = FALSE,
                            plot.it = TRUE,

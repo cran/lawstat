@@ -44,7 +44,7 @@
 #' kurtosis(random)
 #' skewness(random)
 #' 
-`nig.parameter` <- function(mean = mean,
+nig.parameter <- function(mean = mean,
                             variance = variance,
                             kurtosis = kurtosis,
                             skewness = skewness)

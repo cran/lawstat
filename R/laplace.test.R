@@ -27,8 +27,6 @@
 #' @references
 #' \insertAllCited{}
 #' 
-#' @seealso \code{\link[VGAM]{plaplace}}
-#' 
 #' @keywords distribution
 #' 
 #' @author Kimihiro Noguchi, Yulia R. Gel
@@ -43,7 +41,7 @@
 #' ## [1] 0.9177726
 #' ## The critical value at the 0.05 significance level is approximately 0.906.
 #' ## Thus, the null hypothesis should be rejected at the 0.05 level.
-`laplace.test` <- function(y)
+laplace.test <- function(y)
 {
     y <- y[!is.na(y)]
     y <- sort(y)

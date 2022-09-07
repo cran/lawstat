@@ -34,7 +34,7 @@
 #' data(bias)
 #' sj.test(bias)
 #' 
-`sj.test` <- function(x,
+sj.test <- function(x,
                       crit.values = c("t.approximation", "empirical"),
                       N = 0)
 {

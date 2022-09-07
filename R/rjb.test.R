@@ -51,7 +51,7 @@
 #' data(zuni)
 #' rjb.test(zuni[, "Revenue"])
 #' 
-`rjb.test` <- function(x,
+rjb.test <- function(x,
                        option = c("RJB", "JB"),
                        crit.values = c("chisq.approximation", "empirical"),
                        N = 0)

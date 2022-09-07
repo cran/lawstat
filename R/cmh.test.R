@@ -54,7 +54,7 @@
 #' data(blackhire)
 #' cmh.test(blackhire)
 #' 
-`cmh.test` <- function(x)
+cmh.test <- function(x)
 {
     pooled = apply(x, 1:2, sum)
     OR = pooled[1,1] * pooled[2,2] / pooled[1,2] / pooled[2,1]

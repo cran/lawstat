@@ -27,7 +27,7 @@
 #' x = rnorm(100)
 #' j.maad(x)
 #' 
-`j.maad` <- function(x) 
+j.maad <- function(x) 
 {
     x <- na.omit(x)
     ### Robust Standard Deviation J

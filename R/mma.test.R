@@ -36,7 +36,7 @@
 #' data(pot)
 #' mma.test(pot[, "obs"], pot[, "type"], tail = "left")$N
 #' 
-`mma.test` <-
+mma.test <-
     function(y, group, tail = c("right", "left", "both"))
     {
         ### assign tail and name###

@@ -32,7 +32,7 @@
 #' cd(popdata[,"pop1900"])
 #' cd(popdata[,"pop1972"])
 #' 
-`cd` <- function(x)
+cd <- function(x)
 {
     x <- na.omit(x)
     x <- sort(x)
@@ -41,4 +41,3 @@
     coef <- mean(abs(x - M))/M
     return(coef)
 }
-

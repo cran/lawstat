@@ -35,7 +35,7 @@
 #' ## Laplace distributed data
 #' x = rexp(100) - rexp(100)
 #' rlm.test(x)
-`rlm.test` <-
+rlm.test <-
     function (x,
               crit.values = c("chisq.approximation", "empirical"),
               N = 0)
