@@ -1,4 +1,4 @@
-875631ef444939798d347ba6eba2803c *DESCRIPTION
+78d897e05f3df32b87cf994d9aa4d237 *DESCRIPTION
 8518fbb0bc2c520a578b0d5f07fb00cb *NAMESPACE
 c6e213c293954af177b3a4c02b365538 *R/bartels.test.R
 fef40bb028ef74102e428d8ee1bca85f *R/bias.R
@@ -30,7 +30,7 @@ b659e1b940e30eb88686513d570d1bbd *R/rjb.test.R
 62cf6b98234e87b8d90e317f63a22544 *R/symmetry.test.R
 8c7f15fbaacf2ce22c8434ceff964c4e *R/vgam_extract.R
 b020f2efcadd474677a33c934addb5ae *R/zuni.R
-6776b13a94b53dbe5255446cf06ab9e6 *build/partial.rdb
+c95e30aaf71118a7483ff5d8d3195b01 *build/partial.rdb
 430a965f80113bae14cfba0763d40c19 *data/bias.rda
 da73f500bda27a33b58268c015b3de85 *data/blackhire.rda
 ac36359d8b7b090a5edc1a282658b7dd *data/data1963.rda

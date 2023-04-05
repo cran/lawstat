@@ -1,33 +1,33 @@
 Package: lawstat
 Type: Package
 Title: Tools for Biostatistics, Public Policy, and Law
-Version: 3.5
-Date: 2022-09-07
+Version: 3.6
+Date: 2023-04-05
 Authors@R: c(person("Joseph L.", "Gastwirth", role = "aut"),
-             person("Yulia R.", "Gel", role = "aut"),
+             person("Yulia R.", "Gel", 
+                    email = "gel.yulia@gmail.com",
+                    role = c("aut", "cre")),
              person("W. L. Wallace", "Hui", role = "aut"),
-             person("Vyacheslav", "Lyubchich", role = c("aut", "cre"),
-                    email = "lyubchic@umces.edu",
+             person("Vyacheslav", "Lyubchich", role = "aut",
                     comment = c(ORCID = "0000-0001-7936-4285")),
              person("Weiwen", "Miao", role = "aut"),
              person("Kimihiro", "Noguchi", role = "aut"))
 Depends: R (>= 2.6.0)
 Imports: Kendall, mvtnorm, Rdpack
-Suggests: fBasics
+Suggests: fBasics, tseries
 License: GPL (>= 2)
 Description: Statistical tests widely utilized in biostatistics, public policy, and law. Along with the well-known tests for equality of means and variances, randomness, and measures of relative variability, the package contains new robust tests of symmetry, omnibus and directional tests of normality, and their graphical counterparts such as robust QQ plot, robust trend tests for variances, etc. All implemented tests and methods are illustrated by simulations and real-life examples from legal statistics, economics, and biostatistics.
 RdMacros: Rdpack
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3
 Encoding: UTF-8
 NeedsCompilation: no
-Packaged: 2022-09-07 20:13:47 UTC; slava
+Packaged: 2023-04-05 14:07:04 UTC; slava
 Author: Joseph L. Gastwirth [aut],
-  Yulia R. Gel [aut],
+  Yulia R. Gel [aut, cre],
   W. L. Wallace Hui [aut],
-  Vyacheslav Lyubchich [aut, cre]
-    (<https://orcid.org/0000-0001-7936-4285>),
+  Vyacheslav Lyubchich [aut] (<https://orcid.org/0000-0001-7936-4285>),
   Weiwen Miao [aut],
   Kimihiro Noguchi [aut]
-Maintainer: Vyacheslav Lyubchich <lyubchic@umces.edu>
+Maintainer: Yulia R. Gel <gel.yulia@gmail.com>
 Repository: CRAN
-Date/Publication: 2022-09-07 21:52:52 UTC
+Date/Publication: 2023-04-05 21:03:26 UTC
