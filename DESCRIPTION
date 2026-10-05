@@ -1,12 +1,14 @@
 Package: lawstat
 Type: Package
 Title: Tools for Biostatistics, Public Policy, and Law
-Version: 3.6
-Date: 2023-04-05
+Version: 3.6.1
+Date: 2026-10-04
 Authors@R: c(person("Joseph L.", "Gastwirth", role = "aut"),
-             person("Yulia R.", "Gel", 
-                    email = "gel.yulia@gmail.com",
+             person("Asim", "Dey", 
+                    email = "A.Dey@ttu.edu",
                     role = c("aut", "cre")),
+             person("Yulia R.", "Gel", 
+                    role = "aut"),
              person("W. L. Wallace", "Hui", role = "aut"),
              person("Vyacheslav", "Lyubchich", role = "aut",
                     comment = c(ORCID = "0000-0001-7936-4285")),
@@ -23,11 +25,12 @@ Encoding: UTF-8
 NeedsCompilation: no
 Packaged: 2023-04-05 14:07:04 UTC; slava
 Author: Joseph L. Gastwirth [aut],
-  Yulia R. Gel [aut, cre],
+  Asim Dey [aut, cre],
+  Yulia R. Gel [aut],
   W. L. Wallace Hui [aut],
   Vyacheslav Lyubchich [aut] (<https://orcid.org/0000-0001-7936-4285>),
   Weiwen Miao [aut],
   Kimihiro Noguchi [aut]
-Maintainer: Yulia R. Gel <gel.yulia@gmail.com>
+Maintainer: Asim Dey <A.Dey@ttu.edu>
 Repository: CRAN
 Date/Publication: 2023-04-05 21:03:26 UTC
